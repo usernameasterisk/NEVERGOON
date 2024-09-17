@@ -6,7 +6,7 @@
 	gender_enabled = MALE
 
 /datum/customizer/organ/penis/is_allowed(datum/preferences/prefs)
-	return TRUE
+	return (prefs.gender == MALE)
 
 /datum/customizer_choice/organ/penis
 	abstract_type = /datum/customizer_choice/organ/penis
@@ -174,7 +174,7 @@
 	gender_enabled = MALE
 
 /datum/customizer/organ/testicles/is_allowed(datum/preferences/prefs)
-	return TRUE
+	return (prefs.gender == MALE)
 
 /datum/customizer_choice/organ/testicles
 	abstract_type = /datum/customizer_choice/organ/testicles
@@ -260,7 +260,7 @@
 	gender_enabled = FEMALE
 
 /datum/customizer/organ/breasts/is_allowed(datum/preferences/prefs)
-	return TRUE
+	return (prefs.gender == FEMALE)
 
 /datum/customizer_choice/organ/breasts
 	abstract_type = /datum/customizer_choice/organ/breasts
@@ -393,7 +393,7 @@
 	gender_enabled = FEMALE
 
 /datum/customizer/organ/vagina/is_allowed(datum/preferences/prefs)
-	return TRUE
+	return (prefs.gender == FEMALE)
 
 /datum/customizer_choice/organ/vagina
 	abstract_type = /datum/customizer_choice/organ/vagina
