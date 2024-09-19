@@ -116,6 +116,7 @@
 #define MIN_VOICE_PITCH		0.8
 #define MAX_VOICE_PITCH		1.35
 
+/* ru downstream edit
 // Pronouns (LETHALSTONE)
 #define HE_HIM			"he/him"
 #define SHE_HER			"she/her"
@@ -130,3 +131,4 @@ GLOBAL_LIST_INIT(pronouns_list, list(HE_HIM, SHE_HER, THEY_THEM, IT_ITS))
 #define VOICE_TYPE_FEM	"Feminine"
 
 GLOBAL_LIST_INIT(voice_types_list, list(VOICE_TYPE_MASC, VOICE_TYPE_FEM))
+*/

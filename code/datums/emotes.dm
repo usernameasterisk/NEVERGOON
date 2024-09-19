@@ -136,6 +136,7 @@
 				possible_sounds = H.dna.species.soundpack_f.get_sound(key,modifier)
 			else if(H.dna.species.soundpack_m)
 				possible_sounds = H.dna.species.soundpack_m.get_sound(key,modifier)
+				/*
 			 // LETHALSTONE ADDITION BEGIN: use preference-set voice types where possible
 			if(H.voice_type)
 				switch (H.voice_type)
@@ -147,6 +148,7 @@
 						else
 							possible_sounds = H.dna.species.soundpack_m.get_sound(key, modifier)
 			// LETHALSTONE ADDITION END
+			*/
 			if(possible_sounds)
 				if(islist(possible_sounds))
 					var/list/PS = possible_sounds
