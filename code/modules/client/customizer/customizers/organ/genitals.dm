@@ -317,10 +317,11 @@
 
 /datum/customizer_choice/organ/breasts/animal
 	sprite_accessories = list(
-		/datum/sprite_accessory/breasts/pair,
+		/datum/sprite_accessory/breasts/pair)
+		/*
 		/datum/sprite_accessory/breasts/quad,
 		/datum/sprite_accessory/breasts/sextuple,
-		)
+		*/
 
 /datum/customizer_entry/organ/belly
 	var/belly_size = DEFAULT_BELLY_SIZE
