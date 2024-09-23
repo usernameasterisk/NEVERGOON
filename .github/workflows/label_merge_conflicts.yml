@@ -2,7 +2,7 @@ name: 'Merge Conflict Detection'
 on:
   push:
     branches:
-      - main
+      - dev
 jobs:
   triage:
     runs-on: ubuntu-latest
