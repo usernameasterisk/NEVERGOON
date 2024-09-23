@@ -3,14 +3,14 @@ name: BYOND Build
 on:
   push:
     branches:
-      - main
+      - dev
   pull_request:
     branches:
-      - main
+      - dev
 
 env:
   BYOND_MAJOR: 515
-  BYOND_MINOR: 1636
+  BYOND_MINOR: 1642
 
 jobs:
   build:
