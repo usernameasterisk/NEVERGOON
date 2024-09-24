@@ -614,6 +614,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	WRITE_FILE(S["voice_type"] , voice_type)
 	WRITE_FILE(S["pronouns"] , pronouns)
 */
+	WRITE_FILE(S["statpack"] , statpack.type)
 	if(loadout)
 		WRITE_FILE(S["loadout"] , loadout.type)
 	else
