@@ -199,7 +199,7 @@
 	glass_name = "glass of milk"
 	glass_desc = ""
 
-/datum/reagent/consumable/breastmilk
+/datum/reagent/consumable/milk/breastmilk
 	name = "Milk"
 	description = "An opaque white liquid produced by the mammary glands of mammals."
 	color = "#f7f6f3" // rgb: 247, 246, 243
