@@ -3646,4 +3646,7 @@
 #include "modular_hearthstone\statpacks\mental.dm"
 #include "modular_hearthstone\statpacks\physical.dm"
 #include "modular_hearthstone\statpacks\wildcard.dm"
+#include "modular_joparamble\code\modules\client\customizer\customizers\organ\genitals.dm"
+#include "modular_joparamble\code\_DEFINES\DNA.dm"
+#include "modular_joparamble\code\_DEFINES\preferences.dm"
 // END_INCLUDE

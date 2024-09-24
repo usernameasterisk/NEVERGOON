@@ -128,7 +128,7 @@
 			. = "he"
 		if(PLURAL)
 			. = "they"
-	/*
+		/*
 			if (capitalized)
 				. = capitalize(.)
 			return
@@ -160,7 +160,7 @@
 			. = "his"
 		if(PLURAL)
 			. = "their"
-	/*
+		/*
 			if (capitalized)
 				. = capitalize(.)
 			return

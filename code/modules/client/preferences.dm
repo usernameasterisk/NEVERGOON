@@ -1498,14 +1498,32 @@ Slots: [job.spawn_positions]</span>
 						// LETHALSTONE EDIT END
 						ResetJobs()
 						to_chat(user, "<font color='red'>Classes reset.</font>")
-						/*
+						
+					
+				// LETHALSTONE EDIT: add statpack selection
+				if ("statpack")
+					var/list/statpacks_available = list()
+					for (var/path as anything in GLOB.statpacks)
+						var/datum/statpack/statpack = GLOB.statpacks[path]
+						if (!statpack.name)
+							continue
+						statpacks_available[statpack.name] = statpack
+
+					var/statpack_input = input(user, "Choose your character's statpack", "Statpack") as null|anything in statpacks_available
+					if (statpack_input)
+						var/datum/statpack/statpack_chosen = statpacks_available[statpack_input]
+						statpack = statpack_chosen
+						to_chat(user, "<font color='purple'>[statpack.name]</font>")
+						to_chat(user, "<font color='purple'>[statpack.description_string()]</font>")
+					
+				/*
 				// LETHALSTONE EDIT: add pronouns
 				if ("pronouns")
 					var pronouns_input = input(user, "Choose your character's pronouns", "Pronouns") as null|anything in GLOB.pronouns_list
 					if(pronouns_input)
 						pronouns = pronouns_input
 						to_chat(user, "<font color='red'>Your character's pronouns are now [pronouns].")
-*/
+				*/
 				if("faith")
 					var/list/faiths_named = list()
 					for(var/path as anything in GLOB.preference_faiths)
