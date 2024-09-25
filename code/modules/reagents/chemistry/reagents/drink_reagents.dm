@@ -208,6 +208,12 @@
 	glass_name = "glass of milk"
 	glass_desc = ""
 
+// [RU_HEARTSTONE-ADD]
+/datum/reagent/consumable/breastmilk/on_mob_life(mob/living/carbon/H)
+	if(ishuman(H))
+		if(!HAS_TRAIT(H, TRAIT_NOHUNGER))
+			H.adjust_hydration(10)
+// [RU_HEARTSTONE-ADD-END]
 /datum/reagent/consumable/milk/on_mob_life(mob/living/carbon/M)
 	if(M.getBruteLoss() && prob(20))
 		M.heal_bodypart_damage(1,0, 0)
