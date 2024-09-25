@@ -1,0 +1,607 @@
+"ai" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/storage/belt/rogue/pouch/coins/poor,/obj/item/storage/belt/rogue/pouch/coins/poor,/obj/item/storage/belt/rogue/pouch/coins/rich,/turf/open/floor/rogue/blocks/newstone,/area/rogue)
+"am" = (/obj/structure/table/wood{dir = 1; icon_state = "longtable"},/obj/item/storage/bag/tray,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"an" = (/obj/machinery/light/rogue/firebowl/standing/blue,/turf/open/floor/rogue/naturalstone,/area/rogue)
+"aw" = (/obj/machinery/light/rogue/campfire,/turf/open/floor/rogue/churchrough,/area/rogue)
+"aN" = (/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/blocks/newstone,/area/rogue)
+"aR" = (/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/blocks/newstone/alt,/area/rogue)
+"be" = (/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/concrete,/area/rogue)
+"bh" = (/obj/structure/bars/pipe{dir = 8},/obj/effect/spawner/lootdrop/roguetown/dungeon/spells,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"bu" = (/obj/structure/bars/pipe,/obj/item/roguegem/random,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"by" = (/obj/structure/bars/pipe,/obj/structure/bars/pipe{dir = 6},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"bz" = (/turf/closed/wall/mineral/rogue/pipe{icon_state = "iron_corner"},/area/rogue)
+"bB" = (/obj/item/roguebin/water/gross,/turf/open/floor/rogue/blocks,/area/rogue)
+"bK" = (/obj/item/natural/stone,/turf/open/floor/rogue/concrete,/area/rogue)
+"bL" = (/obj/item/rogueweapon/greatsword/zwei,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"bT" = (/turf/closed/wall/mineral/rogue/stone/window/blue_moss,/area/rogue)
+"cv" = (/obj/structure/spacevine{opacity = 1},/turf/open/floor/rogue/church,/area/rogue)
+"cw" = (/turf/open/floor/rogue/church,/area/rogue)
+"cK" = (/obj/item/natural/stone,/turf/open/floor/rogue/cobble,/area/rogue)
+"cM" = (/obj/structure/bars/pipe,/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 4},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"cX" = (/obj/effect/spawner/lootdrop/roguetown/dungeon,/obj/structure/closet/crate/chest,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"dg" = (/turf/open/lava,/area/rogue)
+"dn" = (/obj/structure/closet/crate/chest/lootbox,/obj/effect/decal/cleanable/cobweb{icon_state = "cobweb2"},/turf/open/floor/rogue/concrete,/area/rogue)
+"dp" = (/obj/structure/bars/pipe{dir = 9},/turf/open/transparent/openspace,/area/rogue)
+"dq" = (/obj/structure/bars,/turf/open/floor/rogue/naturalstone,/area/rogue)
+"dw" = (/turf/open/floor/rogue/dirt/road,/area/rogue)
+"dA" = (/mob/living/simple_animal/hostile/rogue/skeleton/bow,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"dH" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/effect/spawner/lootdrop/roguetown/dungeon,/turf/open/floor/rogue/tile,/area/rogue)
+"dK" = (/obj/structure/bars/passage/shutter/open,/turf/open/floor/rogue/concrete,/area/rogue)
+"dW" = (/obj/structure/stairs/stone{dir = 1},/turf/open/floor/rogue/naturalstone,/area/rogue)
+"em" = (/turf/open/water/river{dir = 8; icon_state = "rockwd"},/area/rogue)
+"es" = (/obj/item/reagent_containers/glass/bucket/wooden,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"eF" = (/obj/structure/flora/roguegrass,/obj/structure/bars/pipe{dir = 1},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"fa" = (/obj/structure/table/wood{dir = 10; icon_state = "tablewood2"},/obj/effect/spawner/lootdrop/roguetown/dungeon,/obj/effect/decal/cleanable/cobweb,/turf/open/floor/rogue/blocks,/area/rogue)
+"fd" = (/obj/structure/rack/rogue,/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/church,/area/rogue)
+"fq" = (/obj/structure/closet/crate/roguecloset/dark,/obj/item/clothing/suit/roguetown/shirt/jester,/turf/open/floor/rogue/blocks/newstone/alt,/area/rogue)
+"fv" = (/obj/structure/flora/roguetree/stump/burnt,/turf/open/floor/rogue/naturalstone,/area/rogue)
+"fw" = (/obj/structure/mineral_door/wood,/turf/open/floor/rogue/herringbone,/area/rogue)
+"fC" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 9},/obj/structure/bars/pipe{dir = 1},/obj/structure/bars/pipe,/turf/open/floor/rogue/concrete,/area/rogue)
+"fN" = (/obj/effect/decal/remains/human,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"fU" = (/obj/structure/bars/passage/shutter,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"gb" = (/turf/open/floor/rogue/blocks,/area/rogue)
+"go" = (/obj/structure/bars/pipe,/obj/structure/bars/pipe{dir = 1},/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"gr" = (/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"gx" = (/obj/structure/spacevine{opacity = 1},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"ha" = (/obj/structure/bars/pipe{dir = 4},/turf/open/floor/rogue/concrete,/area/rogue)
+"he" = (/obj/structure/flora/roguegrass/water/reeds,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"hh" = (/obj/item/rogueore/iron,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"hk" = (/mob/living/simple_animal/hostile/retaliate/rogue/spider/mutated,/turf/open/floor/rogue/naturalstone,/area/rogue)
+"hG" = (/mob/living/simple_animal/hostile/retaliate/rogue/wolf/poison,/turf/open/floor/rogue/church,/area/rogue)
+"ig" = (/obj/structure/fluff/statue/secret{color = "#3F3E3D"; pixel_y = 16},/turf/open/floor/rogue/cobble,/area/rogue)
+"ii" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 10},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"iL" = (/obj/structure/bars/pipe{dir = 4},/obj/structure/bars/pipe{dir = 8},/obj/machinery/light/rogue/oven/south{desc = "...?"; name = "ancient intake"},/turf/open/floor/rogue/concrete,/area/rogue)
+"iM" = (/obj/structure/mineral_door/wood{locked = 1},/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"iN" = (/obj/structure/fluff/statue/secret{color = "#3F3E3D"; pixel_y = 16},/turf/open/floor/rogue/church,/area/rogue)
+"iU" = (/obj/item/rogueweapon/hammer/claw,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"iW" = (/obj/structure/bars/pipe{dir = 1},/obj/structure/bars/pipe,/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"ja" = (/obj/structure/chair/wood/rogue{dir = 8},/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"je" = (/turf/closed/wall/mineral/rogue/stone/moss,/area/rogue)
+"ji" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"jr" = (/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/cobble,/area/rogue)
+"jv" = (/turf/closed/wall/mineral/rogue/stone/window/moss,/area/rogue)
+"jA" = (/obj/structure/spacevine,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"jO" = (/obj/structure/mineral_door/wood,/turf/open/floor/rogue/blocks/newstone,/area/rogue)
+"jT" = (/obj/structure/spider/stickyweb,/turf/open/floor/rogue/naturalstone,/area/rogue)
+"jW" = (/obj/structure/stone_tile/surrounding_tile/burnt,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"jY" = (/obj/structure/bars/pipe{dir = 9},/turf/open/floor/rogue/metal{icon_state = "plating2"},/area/rogue)
+"kc" = (/obj/structure/table/wood{dir = 10; icon_state = "largetable"},/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"kd" = (/obj/structure/bars/pipe{dir = 6; pixel_y = 16},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"kh" = (/obj/effect/decal/remains/wolf,/turf/open/floor/rogue/cobble,/area/rogue)
+"km" = (/obj/structure/table/wood{dir = 6; icon_state = "largetable"},/obj/item/storage/belt/rogue/pouch/coins/rich,/turf/open/floor/carpet/royalblack,/area/rogue)
+"kn" = (/obj/item/rogueore/coal,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"ks" = (/turf/closed/mineral/random/rogue/med,/area/rogue)
+"kw" = (/obj/structure/glowshroom,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"kE" = (/turf/open/floor/rogue/dirt,/area/rogue)
+"kZ" = (/obj/structure/bars/pipe{dir = 5},/turf/open/floor/rogue/concrete,/area/rogue)
+"la" = (/obj/structure/flora/roguetree/stump/log{pixel_x = -10},/turf/open/floor/rogue/blocks,/area/rogue)
+"lc" = (/obj/structure/bars/pipe,/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"ld" = (/obj/item/rogueore/gold,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"lx" = (/obj/structure/bars/pipe{dir = 8},/turf/open/floor/rogue/concrete,/area/rogue)
+"lz" = (/mob/living/simple_animal/hostile/rogue/skeleton/axe,/turf/open/floor/rogue/blocks/stonered,/area/rogue)
+"lA" = (/obj/structure/chair/wood/rogue{dir = 1},/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"lB" = (/obj/structure/rack/rogue{density = 0; pixel_y = 18},/obj/effect/spawner/lootdrop/roguetown/dungeon,/turf/open/floor/rogue/cobble,/area/rogue)
+"lF" = (/obj/structure/table/wood{dir = 10; icon_state = "largetable"},/obj/item/storage/belt/rogue/pouch/coins/poor,/turf/open/floor/rogue/blocks/newstone,/area/rogue)
+"lI" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 9},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"lS" = (/turf/closed/wall/mineral/rogue/pipe{icon_state = "iron_line"},/area/rogue)
+"lX" = (/mob/living/simple_animal/hostile/rogue/skeleton/bow,/turf/open/floor/rogue/blocks/stonered,/area/rogue)
+"mb" = (/obj/machinery/light/rogue/torchholder{dir = 8},/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"mc" = (/obj/effect/decal/remains/bigrat,/turf/open/floor/rogue/naturalstone,/area/rogue)
+"mo" = (/obj/structure/stairs/stone{dir = 8},/turf/open/floor/rogue/metal,/area/rogue)
+"mE" = (/obj/structure/chair/wood/rogue/fancy,/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/blocks/newstone,/area/rogue)
+"mK" = (/obj/structure/chair/wood/rogue{dir = 4; pixel_x = -7},/turf/open/floor/rogue/blocks,/area/rogue)
+"mO" = (/obj/structure/glowshroom,/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/water/swamp/deep,/area/rogue)
+"nd" = (/obj/item/shard,/turf/open/floor/rogue/cobble,/area/rogue)
+"nG" = (/obj/structure/table/wood{dir = 10; icon_state = "largetable"},/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/churchbrick,/area/rogue)
+"nI" = (/obj/structure/bars/pipe{dir = 1},/obj/structure/bars/pipe,/obj/machinery/light/rogue/oven/west{desc = "...?"; name = "ancient intake"},/turf/open/floor/rogue/concrete,/area/rogue)
+"nN" = (/turf/open/floor/rogue/blocks/newstone,/area/rogue)
+"nT" = (/obj/effect/decal/cleanable/blood/gibs/torso,/turf/open/floor/rogue/church,/area/rogue)
+"ok" = (/turf/open/floor/rogue/blocks/stonered,/area/rogue)
+"ou" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 1},/obj/structure/bars/pipe{dir = 9; pixel_x = 19},/turf/open/floor/rogue/concrete,/area/rogue)
+"oz" = (/obj/structure/bars/pipe,/obj/structure/bars/pipe{dir = 1},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"oB" = (/obj/structure/spacevine{opacity = 1},/turf/open/floor/rogue/churchmarble,/area/rogue)
+"oD" = (/turf/closed/wall/mineral/rogue/pipe{dir = 4; icon_state = "iron_corner"},/area/rogue)
+"oF" = (/obj/structure/spacevine{opacity = 1},/turf/open/water/swamp/deep,/area/rogue)
+"oX" = (/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/blocks,/area/rogue)
+"oZ" = (/obj/structure/bars/pipe{dir = 8},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"po" = (/obj/structure/chair/wood/rogue/chair3{dir = 8},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"pq" = (/obj/structure/chair/bench/ultimacouch/r{icon_state = "ultimacochright"},/turf/open/floor/carpet/royalblack,/area/rogue)
+"pt" = (/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"px" = (/obj/effect/decal/remains/bigrat,/turf/open/floor/rogue/churchrough,/area/rogue)
+"py" = (/obj/structure/bars/pipe,/obj/machinery/light/rogue/oven/east{desc = "...?"; name = "ancient intake"},/turf/open/floor/rogue/concrete,/area/rogue)
+"pC" = (/obj/structure/bars{icon_state = "barsbent"},/turf/open/lava/acid,/area/rogue)
+"pD" = (/obj/structure/stone_tile/surrounding_tile,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"pG" = (/obj/structure/rack/rogue{density = 0; pixel_y = 18},/obj/effect/spawner/lootdrop/roguetown/dungeon,/obj/item/reagent_containers/glass/bottle/rogue/healthpot,/turf/open/floor/rogue/cobble,/area/rogue)
+"pP" = (/mob/living/simple_animal/hostile/retaliate/rogue/wolf/poison,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"pU" = (/turf/closed/wall/mineral/rogue/pipe{dir = 8; icon_state = "iron_corner"},/area/rogue)
+"pY" = (/obj/structure/bars/passage/shutter{desc = "Extremely strong. I don't think I can easily get through this with brute force. Where might the way to open it be?"; max_integrity = 15000; name = "reinforced shutter"; redstone_id = "meltedcitysmelteralleyway"},/turf/open/floor/rogue/concrete,/area/rogue)
+"qf" = (/mob/living/simple_animal/hostile/retaliate/rogue/wolf,/turf/open/floor/rogue/church,/area/rogue)
+"qo" = (/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"qp" = (/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"qu" = (/mob/living/simple_animal/hostile/rogue/skeleton/axe,/turf/open/floor/rogue/concrete,/area/rogue)
+"qB" = (/turf/open/floor/rogue/metal,/area/rogue)
+"qC" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/scalpel,/turf/open/floor/rogue/concrete,/area/rogue)
+"qE" = (/obj/structure/bars/pipe,/obj/structure/bars/pipe{dir = 10},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"qI" = (/obj/structure/fluff/statue/what,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"qN" = (/obj/structure/fluff/statue/gargoyle,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"qO" = (/obj/structure/table/wood{dir = 10; icon_state = "largetable"},/turf/open/floor/rogue/church,/area/rogue)
+"qT" = (/obj/effect/spawner/lootdrop/roguetown/sewers,/obj/structure/closet/crate/chest,/obj/effect/spawner/lootdrop/roguetown/dungeon,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"rc" = (/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"rf" = (/turf/open/water/river{dir = 1; icon_state = "rockwd"},/area/rogue)
+"rh" = (/obj/machinery/light/roguestreet/midlamp{pixel_y = 10},/obj/structure/bars/pipe{dir = 1},/obj/structure/bars/pipe,/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"ro" = (/obj/structure/bars/pipe,/turf/open/floor/rogue/concrete,/area/rogue)
+"rp" = (/turf/closed/wall/mineral/rogue/stone,/area/rogue)
+"rw" = (/obj/structure/mineral_door/wood/donjon{dir = 1; locked = 1},/turf/open/floor/rogue/cobble,/area/rogue)
+"rE" = (/obj/structure/closet/crate/roguecloset/dark,/obj/item/clothing/suit/roguetown/shirt/robe/mage,/turf/open/floor/rogue/blocks/newstone/alt,/area/rogue)
+"rO" = (/obj/structure/table/wood{dir = 10; icon_state = "largetable"},/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/carpet/royalblack,/area/rogue)
+"rQ" = (/obj/structure/table/wood{icon_state = "longtable"},/obj/item/book_crafting_kit,/turf/open/floor/rogue/cobble,/area/rogue)
+"sb" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 4},/obj/structure/bars/pipe,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"sf" = (/mob/living/simple_animal/hostile/rogue/skeleton/axe,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue)
+"sl" = (/turf/open/water/river{icon_state = "rockwd"},/area/rogue)
+"sn" = (/obj/item/roguestatue/iron,/turf/open/floor/rogue/concrete,/area/rogue)
+"ss" = (/mob/living/simple_animal/hostile/rogue/skeleton/bow,/turf/open/floor/rogue/metal,/area/rogue)
+"su" = (/obj/item/natural/fibers,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"sv" = (/obj/structure/bars/pipe{dir = 9},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"sC" = (/turf/open/water/cleanshallow,/area/rogue)
+"sN" = (/turf/open/water/swamp,/area/rogue)
+"sW" = (/turf/closed/mineral/rogue/bedrock,/area/rogue)
+"sY" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"td" = (/obj/structure/spacevine,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"tf" = (/obj/item/rogueweapon/tongs,/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"tg" = (/turf/closed/wall/mineral/rogue/pipe{dir = 4; icon_state = "iron_line"},/area/rogue)
+"tp" = (/obj/structure/closet/crate/chest,/obj/effect/spawner/lootdrop/roguetown/dungeon,/turf/open/floor/rogue/herringbone,/area/rogue)
+"tz" = (/turf/open/floor/rogue/churchbrick,/area/rogue)
+"tC" = (/obj/item/storage/backpack/rogue/backpack,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"tN" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe,/obj/structure/bars/pipe{dir = 9},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"tQ" = (/obj/effect/decal/remains/human,/obj/structure/chair/bench{dir = 8},/obj/item/clothing/ring/gold,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"tR" = (/obj/structure/glowshroom,/turf/open/floor/rogue/blocks,/area/rogue)
+"tS" = (/obj/structure/fluff/statue/who,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"tT" = (/obj/structure/bars/pipe{pixel_y = 8},/turf/open/transparent/openspace,/area/rogue)
+"tX" = (/obj/item/roguegem/random,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"ue" = (/turf/open/water/swamp/deep,/area/rogue)
+"uf" = (/obj/structure/bars/pipe,/obj/effect/spawner/lootdrop/roguetown/dungeon/spells,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"uh" = (/obj/item/roguegear{pixel_x = 6; pixel_y = 12},/obj/item/roguegear{pixel_x = -8; pixel_y = 5},/obj/item/roguegear{pixel_x = -6; pixel_y = 13},/obj/structure/table/wood{dir = 10; icon_state = "tablewood2"},/turf/open/floor/rogue/concrete,/area/rogue)
+"ul" = (/obj/structure/table/wood{icon_state = "tablewood1"},/obj/effect/spawner/lootdrop/roguetown/dungeon,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"uo" = (/obj/structure/chair/wood/rogue{dir = 1},/turf/open/floor/rogue/church,/area/rogue)
+"uw" = (/obj/structure/chair/bench/ultimacouch,/turf/open/floor/carpet/royalblack,/area/rogue)
+"uM" = (/obj/structure/bars/pipe{dir = 8; pixel_x = 8},/obj/structure/bars/pipe{dir = 9; pixel_x = 8; pixel_y = -8},/turf/open/transparent/openspace,/area/rogue)
+"uO" = (/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"uP" = (/obj/item/storage/backpack/rogue/satchel/black,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"uT" = (/obj/structure/table/wood{dir = 10; icon_state = "largetable"},/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"uZ" = (/obj/structure/bars/pipe,/obj/structure/bars/pipe{dir = 6},/obj/structure/bars/pipe{dir = 8},/turf/open/floor/rogue/concrete,/area/rogue)
+"ve" = (/obj/structure/fluff/statue/secret{color = "#3F3E3D"; pixel_y = 16},/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"vr" = (/obj/structure/fluff/statue/gargoyle/moss{pixel_y = 20},/turf/open/floor/rogue/blocks,/area/rogue)
+"vt" = (/obj/structure/bars/pipe{dir = 5},/obj/structure/bars/pipe{dir = 4},/turf/open/transparent/openspace,/area/rogue)
+"vw" = (/obj/structure/fluff/railing/wood{dir = 8},/obj/item/natural/stone,/turf/open/floor/rogue/cobble,/area/rogue)
+"vC" = (/turf/open/floor/rogue/concrete,/area/rogue)
+"vG" = (/obj/structure/bars{alpha = 190},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"wa" = (/turf/closed/wall/mineral/rogue/stonebrick,/area/rogue)
+"wi" = (/obj/structure/table/wood{dir = 6; icon_state = "largetable"},/obj/item/paper/scroll,/obj/item/natural/feather,/turf/open/floor/rogue/church,/area/rogue)
+"wK" = (/obj/structure/bars/pipe{dir = 1},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"wP" = (/obj/structure/closet/crate/chest,/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"wS" = (/obj/item/natural/stone,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"xb" = (/obj/structure/fluff/walldeco/chains,/turf/open/floor/rogue/blocks,/area/rogue)
+"xq" = (/obj/item/reagent_containers/glass/cup/silver,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"xu" = (/obj/structure/flora/roguetree/stump/log{pixel_x = -10},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"xI" = (/obj/structure/flora/roguegrass/water/reeds,/turf/open/water/swamp,/area/rogue)
+"xL" = (/mob/living/simple_animal/hostile/rogue/skeleton/bow,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"xU" = (/obj/structure/mineral_door/wood/donjon{dir = 1; locked = 1},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"yg" = (/obj/structure/table/wood{dir = 6; icon_state = "largetable"},/obj/item/paper/natural,/obj/item/natural/feather,/turf/open/floor/rogue/blocks/newstone,/area/rogue)
+"yk" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/roguecoin/gold,/obj/item/roguecoin/gold,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"ym" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 4},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"yu" = (/turf/open/floor/rogue/cobble,/area/rogue)
+"yL" = (/obj/structure/spacevine,/turf/open/water/swamp,/area/rogue)
+"yQ" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 4},/turf/open/floor/rogue/concrete,/area/rogue)
+"zf" = (/turf/open/transparent/openspace,/area/rogue)
+"zR" = (/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue)
+"zX" = (/mob/living/simple_animal/hostile/rogue/skeleton/bow,/turf/open/water/swamp,/area/rogue)
+"zY" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/water/swamp,/area/rogue)
+"Ah" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Al" = (/obj/machinery/light/roguestreet/midlamp{pixel_y = 10},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Az" = (/obj/structure/stone_tile/surrounding_tile/burnt{dir = 8},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"AX" = (/obj/item/roguegear{pixel_x = 6; pixel_y = 12},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"Bh" = (/obj/structure/bars/passage/shutter,/turf/closed/wall/mineral/rogue/wooddark/window,/area/rogue)
+"Bp" = (/obj/item/ingot/copper,/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"Br" = (/obj/structure/closet/crate/chest,/turf/open/floor/rogue/herringbone,/area/rogue)
+"Bt" = (/obj/effect/decal/cleanable/cobweb,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"BA" = (/obj/structure/chair/wood,/obj/effect/decal/cleanable/cobweb{icon_state = "cobweb2"},/turf/open/floor/rogue/blocks,/area/rogue)
+"BC" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"BJ" = (/obj/machinery/light/rogue/torchholder{dir = 4},/turf/open/floor/rogue/blocks/newstone/alt,/area/rogue)
+"BY" = (/obj/structure/bars/pipe{dir = 5},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Ca" = (/obj/machinery/light/rogue/firebowl/standing/blue,/turf/open/floor/rogue/cobble,/area/rogue)
+"Cf" = (/obj/structure/chair/bench/church/r,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"Ch" = (/obj/structure/rack/rogue{density = 0; pixel_y = 18},/obj/item/reagent_containers/glass/bottle/rogue/healthpot,/obj/item/rogueweapon/sword/long,/turf/open/floor/rogue/cobble,/area/rogue)
+"Cp" = (/obj/structure/fluff/millstone{pixel_y = 7},/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"Cz" = (/obj/item/natural/rock,/turf/open/water/swamp,/area/rogue)
+"CB" = (/obj/structure/closet/crate/chest,/turf/open/floor/rogue/concrete,/area/rogue)
+"CM" = (/obj/item/natural/fibers,/turf/open/floor/rogue/blocks,/area/rogue)
+"CN" = (/obj/structure/glowshroom,/obj/structure/spacevine,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"CS" = (/obj/effect/decal/cleanable/blood/gibs,/turf/open/floor/rogue/church,/area/rogue)
+"CY" = (/obj/structure/bars/pipe{dir = 1},/turf/open/floor/rogue/blocks,/area/rogue)
+"CZ" = (/obj/item/restraints/legcuffs/beartrap/armed/camouflage,/turf/open/water/swamp,/area/rogue)
+"Dc" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/water/swamp/deep,/area/rogue)
+"De" = (/obj/structure/fluff/railing/fence{dir = 1},/turf/open/floor/rogue/cobble,/area/rogue)
+"Dg" = (/obj/structure/fluff/railing/wood,/turf/open/floor/rogue/cobble,/area/rogue)
+"Dr" = (/obj/machinery/light/rogue/wallfire/candle/blue,/obj/structure/fluff/statue/who,/turf/open/floor/rogue/cobble,/area/rogue)
+"DZ" = (/obj/structure/table/wood{dir = 9; icon_state = "largetable"},/turf/open/floor/rogue/churchbrick,/area/rogue)
+"Ea" = (/obj/structure/flora/roguegrass/water,/turf/open/water/swamp,/area/rogue)
+"Ed" = (/obj/structure/fluff/railing/wood,/obj/structure/fluff/railing/wood{dir = 8},/turf/open/floor/rogue/cobble,/area/rogue)
+"EE" = (/obj/structure/mineral_door/wood,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"EJ" = (/obj/machinery/light/rogue/smelter/great,/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"Fb" = (/obj/machinery/light/roguestreet/midlamp{pixel_y = 10},/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"Fc" = (/mob/living/simple_animal/hostile/rogue/skeleton/axe,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"Fe" = (/obj/item/needle/thorn,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"Fk" = (/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue)
+"Fp" = (/obj/item/rogueore/copper{pixel_y = 8},/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"Fq" = (/obj/structure/stone_tile/surrounding_tile/cracked{dir = 4},/obj/structure/stone_tile/surrounding_tile/cracked{dir = 8},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"Fy" = (/obj/structure/bars/pipe{dir = 1},/obj/structure/bars/pipe,/obj/item/rogueore/coal,/turf/open/floor/rogue/concrete,/area/rogue)
+"FL" = (/obj/structure/bars/pipe{dir = 1},/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"FM" = (/turf/closed/mineral/random/rogue,/area/rogue)
+"FR" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 4},/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"FU" = (/obj/structure/mineral_door/wood/donjon{dir = 8},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"FV" = (/obj/structure/bars/passage/shutter/open,/obj/structure/bars/pipe{dir = 8},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"FY" = (/obj/structure/fluff/railing/wood{dir = 8; pixel_y = -1},/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"Ga" = (/obj/structure/glowshroom,/turf/open/water/swamp/deep,/area/rogue)
+"Gl" = (/obj/item/rogueore/copper,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"Gv" = (/obj/structure/fluff/statue/who,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Gw" = (/obj/structure/stairs/stone{dir = 4},/turf/open/floor/rogue/concrete,/area/rogue)
+"GZ" = (/obj/structure/bars/pipe{dir = 9; pixel_x = 19},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Hy" = (/obj/item/restraints/legcuffs/beartrap/armed/camouflage,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"HI" = (/obj/item/rogueore/coal,/turf/open/floor/rogue/concrete,/area/rogue)
+"HM" = (/obj/structure/bars/pipe,/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"HQ" = (/obj/structure/bars/pipe{dir = 1},/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/concrete,/area/rogue)
+"HV" = (/obj/structure/table/wood{icon_state = "tablewood3"},/turf/open/floor/rogue/tile,/area/rogue)
+"Ib" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/herringbone,/area/rogue)
+"Im" = (/obj/item/clothing/gloves/roguetown/plate/blk,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Iq" = (/obj/structure/chair/bench{dir = 8},/obj/effect/decal/remains/human,/obj/item/clothing/ring/gold,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"Iu" = (/obj/structure/flora/roguegrass,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"Ix" = (/obj/structure/bars/pipe{dir = 8; pixel_x = 8},/turf/open/transparent/openspace,/area/rogue)
+"IF" = (/mob/living/simple_animal/hostile/retaliate/rogue/wolf/poison,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"IJ" = (/obj/effect/spawner/lootdrop/roguetown/sewers,/obj/effect/decal/remains/human,/turf/open/floor/rogue/concrete,/area/rogue)
+"IL" = (/obj/structure/closet/crate/chest/gold,/obj/effect/spawner/lootdrop/roguetown/dungeon,/obj/effect/spawner/lootdrop/roguetown/dungeon,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"IO" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"IP" = (/obj/structure/rack/rogue,/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/concrete,/area/rogue)
+"IR" = (/obj/item/rogueore/silver,/turf/open/floor/rogue/metal,/area/rogue)
+"IX" = (/obj/structure/table/wood{dir = 9; icon_state = "largetable"},/obj/item/toy/cards/deck/syndicate,/turf/open/floor/rogue/woodturned,/area/rogue)
+"Jb" = (/obj/structure/bars/pipe{dir = 4},/turf/open/transparent/openspace,/area/rogue)
+"Jd" = (/obj/machinery/light/rogue/oven{desc = "...?"; name = "ancient intake"},/turf/closed/wall/mineral/rogue/pipe{dir = 4; icon_state = "iron_line"},/area/rogue)
+"Jg" = (/turf/open/floor/rogue/herringbone,/area/rogue)
+"Jv" = (/obj/structure/table/wood{dir = 8; icon_state = "largetable"},/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/churchbrick,/area/rogue)
+"JD" = (/obj/structure/flora/roguegrass/maneater/real,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"JM" = (/obj/item/rogueore/copper,/obj/item/rogueore/coal,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"JO" = (/obj/item/reagent_containers/glass/bottle/rogue/healthpot,/turf/open/floor/rogue/churchrough,/area/rogue)
+"JY" = (/turf/closed/mineral/rogue,/area/rogue)
+"Kg" = (/obj/structure/bars/pipe,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Km" = (/obj/structure/spacevine{opacity = 1},/turf/closed/wall/mineral/rogue/stone/blue_moss,/area/rogue)
+"Ko" = (/obj/structure/closet/crate/chest,/obj/item/ingot/copper,/obj/item/ingot/copper,/obj/item/ingot/copper,/turf/open/floor/rogue/concrete,/area/rogue)
+"KG" = (/obj/structure/mineral_door/wood{locked = 1},/turf/open/floor/rogue/churchmarble,/area/rogue)
+"KK" = (/obj/structure/bars/pipe{dir = 8},/turf/open/floor/rogue/metal{icon_state = "plating2"},/area/rogue)
+"KN" = (/obj/structure/chair/wood/rogue/chair3{dir = 4},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"KR" = (/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/church,/area/rogue)
+"KX" = (/obj/structure/table/wood{icon_state = "tablewood1"},/obj/item/reagent_containers/glass/cup/steel,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"Lb" = (/obj/structure/fluff/walldeco/chains,/turf/open/floor/rogue/concrete,/area/rogue)
+"Ld" = (/obj/structure/mineral_door/wood/donjon{dir = 8; locked = 1},/turf/open/floor/rogue/naturalstone,/area/rogue)
+"Li" = (/obj/machinery/light/rogue/wallfire/candle/blue/r,/turf/open/floor/rogue/church,/area/rogue)
+"Lq" = (/obj/structure/chair/bench/church/mid,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"Lr" = (/obj/structure/table/wood{icon_state = "longtable"},/obj/item/rogueweapon/huntingknife/cleaver/combat,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"LG" = (/obj/structure/table/wood{dir = 1; icon_state = "longtable"},/obj/effect/spawner/lootdrop/roguetown/dungeon,/turf/open/floor/rogue/blocks,/area/rogue)
+"LL" = (/obj/structure/stairs/stone{dir = 4},/turf/open/floor/rogue/metal,/area/rogue)
+"Mp" = (/obj/structure/table/wood{dir = 9; icon_state = "largetable"},/obj/item/reagent_containers/glass/cup/silver,/turf/open/floor/carpet/royalblack,/area/rogue)
+"Mq" = (/obj/structure/closet/crate/chest,/obj/item/rogueore/coal,/obj/item/rogueore/coal,/obj/item/rogueore/coal,/obj/item/rogueore/coal,/turf/open/floor/rogue/concrete,/area/rogue)
+"Mr" = (/obj/structure/table/wood{dir = 5; icon_state = "largetable"},/obj/item/reagent_containers/glass/cup/silver,/turf/open/floor/carpet/royalblack,/area/rogue)
+"MD" = (/obj/item/natural/rock,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"ME" = (/obj/effect/decal/cleanable/cobweb{icon_state = "cobweb2"},/turf/open/water/swamp/deep,/area/rogue)
+"MM" = (/obj/structure/chair/wood/rogue{dir = 4},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"MV" = (/obj/structure/flora/roguegrass/maneater,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"MW" = (/obj/structure/bookcase/random/archive,/turf/open/floor/rogue/cobble,/area/rogue)
+"Nb" = (/obj/item/ingot/copper,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Nf" = (/turf/open/floor/rogue/blocks/newstone/alt,/area/rogue)
+"Nk" = (/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"Nl" = (/obj/structure/flora/roguetree/burnt,/turf/open/floor/rogue/naturalstone,/area/rogue)
+"Nr" = (/obj/structure/chair/wood/rogue,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"Nx" = (/obj/structure/bars/pipe{dir = 8},/turf/open/transparent/openspace,/area/rogue)
+"Nz" = (/obj/structure/fluff/railing/wood,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"NA" = (/obj/structure/window/plasma/fulltile{desc = "I can't see my own reflection."; max_integrity = 30000; name = "purple crystal"},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"NE" = (/turf/open/floor/rogue/churchmarble,/area/rogue)
+"NL" = (/obj/structure/bed/rogue/inn/hay,/turf/open/floor/rogue/herringbone,/area/rogue)
+"Oc" = (/obj/structure/fluff/railing/wood{dir = 8; pixel_y = -1},/obj/structure/fluff/railing/wood,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"Of" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"OB" = (/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/concrete,/area/rogue)
+"OK" = (/obj/structure/chair/bench/church{dir = 1},/turf/open/floor/rogue/churchmarble,/area/rogue)
+"OL" = (/obj/structure/mineral_door/wood,/turf/open/floor/rogue/cobble,/area/rogue)
+"ON" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/concrete,/area/rogue)
+"OP" = (/obj/structure/bars/pipe{dir = 1},/obj/structure/bars/pipe,/turf/open/floor/rogue/concrete,/area/rogue)
+"OT" = (/turf/open/floor/rogue/churchrough,/area/rogue)
+"OZ" = (/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"Pe" = (/obj/structure/mineral_door/wood/donjon,/turf/open/floor/rogue/church,/area/rogue)
+"Pl" = (/turf/closed/wall/mineral/rogue/craftstone,/area/rogue)
+"Pu" = (/obj/structure/bars/pipe{dir = 1; pixel_y = -8},/turf/open/transparent/openspace,/area/rogue)
+"PK" = (/mob/living/carbon/human/species/skeleton/npc/dungeon/ambush{faction = list("wolfs")},/turf/closed/mineral/random/rogue,/area/rogue)
+"PP" = (/obj/effect/spawner/lootdrop/roguetown/sewers,/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/concrete,/area/rogue)
+"PT" = (/obj/item/restraints/legcuffs/beartrap/armed/camouflage,/obj/structure/flora/roguegrass/water/reeds,/turf/open/water/swamp/deep,/area/rogue)
+"PU" = (/obj/structure/bars/pipe{dir = 4},/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Qg" = (/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/rogue/church,/area/rogue)
+"Qj" = (/obj/structure/spider/stickyweb,/obj/structure/spider/stickyweb,/turf/open/floor/rogue/naturalstone,/area/rogue)
+"Qw" = (/obj/item/reagent_containers/food/snacks/rogue/meat/mince,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"Qy" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 4},/obj/structure/bars/pipe{dir = 1},/obj/structure/bars/pipe,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"QC" = (/obj/structure/bars/passage/shutter/open,/obj/structure/bars/pipe,/obj/structure/bars/pipe{dir = 10},/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"QI" = (/obj/structure/table/wood{icon_state = "tablewood3"},/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"QM" = (/obj/structure/table/wood{icon_state = "tablewood3"},/obj/item/rogueweapon/huntingknife/cleaver,/turf/open/floor/rogue/tile,/area/rogue)
+"QP" = (/obj/structure/lever/wall{pixel_x = 12; redstone_id = "meltedcitysmelteralleyway"},/turf/open/floor/rogue/churchrough,/area/rogue)
+"QS" = (/obj/structure/bars/pipe{dir = 1; pixel_y = -8},/turf/open/floor/rogue/naturalstone,/area/rogue)
+"QT" = (/obj/structure/fluff/statue/who,/turf/open/floor/rogue/concrete,/area/rogue)
+"QU" = (/obj/structure/stairs/stone,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"QV" = (/turf/closed/wall/mineral/rogue/pipe{dir = 1; icon_state = "iron_corner"},/area/rogue)
+"QW" = (/obj/structure/mineral_door/wood,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"QY" = (/obj/structure/fluff/statue/answer{color = null; pixel_y = 8},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Ra" = (/obj/structure/closet/crate/chest,/obj/item/roguegear{pixel_x = -6; pixel_y = 13},/obj/item/roguegear,/obj/item/ingot/copper,/turf/open/floor/rogue/concrete,/area/rogue)
+"Ri" = (/obj/structure/table/wood{dir = 4; icon_state = "largetable"},/obj/effect/spawner/lootdrop/roguetown/sewers,/turf/open/floor/carpet/royalblack,/area/rogue)
+"Ry" = (/obj/structure/bars/pipe{dir = 8; pixel_x = 8},/obj/structure/bars/pipe{dir = 5; pixel_x = -11},/obj/structure/bars/pipe{dir = 9; pixel_x = 8},/turf/open/transparent/openspace,/area/rogue)
+"RO" = (/turf/open/floor/carpet/royalblack,/area/rogue)
+"RU" = (/obj/structure/crabnest,/turf/open/water/cleanshallow,/area/rogue)
+"Sb" = (/obj/structure/bars/pipe{dir = 4},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Se" = (/obj/structure/bars/pipe{pixel_y = 16},/turf/open/floor/rogue/metal,/area/rogue)
+"Sq" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/cobble,/area/rogue)
+"St" = (/obj/structure/bookcase{desc = "It seems awfully flimsy, to me."; max_integrity = 50; name = "suspicious bookcase"},/turf/open/floor/rogue/churchrough,/area/rogue)
+"SG" = (/obj/structure/glowshroom,/turf/open/water/swamp,/area/rogue)
+"SN" = (/obj/item/restraints/legcuffs/beartrap/armed/camouflage,/turf/open/water/swamp/deep,/area/rogue)
+"ST" = (/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"Tg" = (/obj/item/natural/stone,/obj/structure/spacevine{opacity = 1},/turf/open/floor/rogue/churchmarble,/area/rogue)
+"Tm" = (/obj/machinery/light/rogue/smelter/great,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Tu" = (/obj/structure/bars/pipe{dir = 8},/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"Tv" = (/obj/item/rogueweapon/hammer{color = gold; desc = "A mastercrafted smith's hammer carrying the blessing of Malum."; name = "Hammer of Malum"},/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"TA" = (/obj/structure/mineral_door/wood/donjon{dir = 1; locked = 1},/turf/open/floor/rogue/churchmarble,/area/rogue)
+"TC" = (/turf/open/floor/rogue/naturalstone,/area/rogue)
+"TG" = (/mob/living/simple_animal/hostile/rogue/skeleton/bow,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"Ub" = (/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/herringbone,/area/rogue)
+"Uw" = (/obj/item/roguegem/random,/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"UI" = (/obj/structure/bars/pipe{dir = 1},/turf/open/floor/rogue/concrete,/area/rogue)
+"UO" = (/obj/item/natural/stone,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"Vd" = (/obj/structure/closet/crate/chest,/obj/item/ingot/copper,/obj/item/ingot/copper,/turf/open/floor/rogue/concrete,/area/rogue)
+"Vg" = (/obj/structure/flora/roguegrass/water/reeds,/turf/open/water/swamp/deep,/area/rogue)
+"Vk" = (/obj/structure/closet/crate/chest,/obj/item/rogueore/coal,/obj/item/rogueore/coal,/turf/open/floor/rogue/concrete,/area/rogue)
+"VD" = (/obj/structure/table/wood{dir = 8; icon_state = "largetable"},/obj/item/reagent_containers/food/snacks/rogue/meat/salami,/turf/open/floor/carpet/royalblack,/area/rogue)
+"VG" = (/obj/structure/closet/crate/chest,/turf/open/floor/rogue/tile,/area/rogue)
+"VM" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"VP" = (/obj/structure/bars/pipe,/obj/structure/mineral_door/wood{locked = 1},/turf/open/floor/rogue/metal/barograte/open,/area/rogue)
+"VS" = (/turf/open/floor/rogue/grass,/area/rogue)
+"Wb" = (/obj/structure/bars/pipe{dir = 1},/turf/open/transparent/openspace,/area/rogue)
+"Wd" = (/mob/living/simple_animal/hostile/retaliate/rogue/wolf/poison,/obj/structure/flora/roguegrass/water,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"Wl" = (/obj/structure/flora/roguegrass/water,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"Wn" = (/obj/effect/decal/cleanable/blood/gibs/limb,/turf/open/floor/rogue/church,/area/rogue)
+"Wv" = (/obj/item/natural/fibers,/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/church,/area/rogue)
+"WB" = (/obj/item/rogueore/silver,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"WO" = (/mob/living/simple_animal/hostile/rogue/skeleton/bow,/turf/open/floor/rogue/blocks/stonered/tiny,/area/rogue)
+"WP" = (/obj/item/restraints/legcuffs/beartrap/armed/camouflage,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"WT" = (/obj/structure/stone_tile/surrounding_tile/cracked,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"Xe" = (/obj/structure/closet/crate/roguecloset/dark,/obj/item/clothing/suit/roguetown/shirt/dress/gen/sexy,/obj/item/clothing/suit/roguetown/shirt/dress/gen/random,/obj/item/clothing/suit/roguetown/shirt/dress/gen/random,/turf/open/floor/rogue/blocks/newstone/alt,/area/rogue)
+"Xi" = (/obj/structure/bars/passage/shutter,/turf/open/floor/rogue/concrete,/area/rogue)
+"Xm" = (/obj/structure/fluff/statue/why,/turf/open/floor/rogue/blocks/stonered,/area/rogue)
+"Xp" = (/obj/item/reagent_containers/food/snacks/rogue/meat/steak,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"Xr" = (/obj/item/natural/fibers,/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"Xs" = (/obj/item/natural/cloth,/turf/open/floor/rogue/churchrough,/area/rogue)
+"XG" = (/obj/structure/chair/wood/rogue{dir = 4},/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue)
+"XQ" = (/mob/living/simple_animal/hostile/rogue/skeleton/spear,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"XY" = (/obj/structure/spacevine,/turf/open/water/swamp/deep,/area/rogue)
+"XZ" = (/obj/structure/spacevine,/turf/closed/wall/mineral/rogue/stone/blue_moss,/area/rogue)
+"Yh" = (/turf/closed/wall/mineral/rogue/pipe,/area/rogue)
+"Yy" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 9},/turf/open/transparent/openspace,/area/rogue)
+"YC" = (/turf/open/floor/rogue/cobble/mossy,/area/rogue)
+"YU" = (/obj/structure/table/wood{dir = 10; icon_state = "largetable"},/obj/effect/spawner/lootdrop/roguetown/dungeon,/turf/open/floor/rogue/church,/area/rogue)
+"YW" = (/turf/open/water/river{dir = 4; icon_state = "rockwd"},/area/rogue)
+"YZ" = (/turf/closed/wall/mineral/rogue/stone/blue_moss,/area/rogue)
+"Zd" = (/obj/structure/bars/pipe{dir = 8},/obj/structure/bars/pipe{dir = 4},/obj/item/roguegem/random,/turf/open/floor/rogue/metal/barograte,/area/rogue)
+"Zh" = (/obj/structure/spacevine{opacity = 1},/turf/open/water/swamp,/area/rogue)
+"Zj" = (/obj/structure/bars/pipe{dir = 1},/obj/machinery/light/rogue/oven/east{desc = "...?"; name = "ancient intake"},/obj/structure/bars/pipe,/turf/open/floor/rogue/concrete,/area/rogue)
+"Zl" = (/obj/item/roguegear,/mob/living/simple_animal/hostile/rogue/skeleton/bow,/turf/open/floor/rogue/metal,/area/rogue)
+"Zq" = (/obj/structure/mineral_door/wood/deadbolt{dir = 4; lockid = "butcher"},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"ZD" = (/obj/structure/stone_tile/surrounding_tile/burnt{dir = 4},/turf/open/floor/rogue/dirt/road,/area/rogue)
+"ZI" = (/obj/structure/table/wood{dir = 6; icon_state = "largetable"},/obj/item/storage/belt/rogue/pouch/coins/rich,/turf/open/floor/rogue/dirt/road,/area/rogue)
+"ZJ" = (/obj/item/reagent_containers/glass/bottle/rogue/healthpot,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"ZL" = (/turf/open/lava/acid,/area/rogue)
+"ZV" = (/obj/item/needle/thorn,/turf/open/floor/rogue/churchrough,/area/rogue)
+"ZW" = (/obj/structure/bars/pipe{dir = 5},/turf/open/floor/rogue/blocks,/area/rogue)
+
+(1,1,1) = {"
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjeFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLFMZLZLZLFMjeFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLFMZLZLZLZLZLZLjedwFMFMFMdwdwdwdwdwdwFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLZLZLZLZLZLZLZLZLFMjedwdwdwdwOZOZdwFMdwdwFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLjedwdwdwdwdwdwOZjiOZOZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLjvNrNrOZOZdwjeiMjeiMjejejeFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLjvkcZIOZXGIXjvYCYCYCYCYCjeFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLjelAlAOZMMuTjvYCYCYCYCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLjejejvjvjvjejeYCYCBCYCYCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLFYjaYCYCYCYCYCYCYCYCYCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLOcNzNzYCYCBCYCYCYCYCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYhYhYhYhYhYhYhYhYhYhYhYhYhYhYhYhFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLZLZLZLZLZLZLfvZLZLZLZLZLdwYCYCYCIuwawawawawawawawawawawawawawawawawawawawawawawawaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMQVtgtgtgtgtgtgtgtgtgtgtgtgtgtgtgtgtgpUILgrYhgrgrgrgrgrgrgrgrgrgrgrymYhFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMZLZLZLZLTCZLZLZLZLZLZLdwYCdwdwYCYCIuwaXefqrEaiwazRzRzRzRokzRzRzRzRokzRzRzRzRuwpqXmwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMgrgrgrgrgrymgrgrgrgroZgrgrgrgrgrYhlSgrgrYhgrgrgrgrYhgrOfgrOfgrgrymYhFMFMdwdwdwdwQVtgtgtgtgtgtgtgtgtgtgZLZLZLZLZLNlTCZLZLZLIutQqoJDFMFMYCYCwaNfNfnNnNwazRZLZLzRlzzRZLZLzRokzRZLZLzRMpMrokwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgrgrFbNkBpymgrNkFbNkoZNbNkNkFbgrgrlSgrgrgrgrgrOfgrYhYhYhKgYhYhgrymYhdwdwdwZLZLZLlSvCHIiLvCGwYhdwdwdwdwZLZLZLZLZLTCZLZLZLZLMVIqYCYCgrFbgrYCwaNfNfaNnNwazRZLZLzRokzRZLZLzRokzRZLZLzRVDRiokwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgrsvFLTmNkymgrUwTmNkoZgrNkTmNkgrgrlSgrYhYhYhYhKgKgYhOfYhKgYhYhgrymYhdwZLZLZLZLZLlSpyrouZroroYhdwkZvCPPvCZLZLZLZLZLZLZLZLZLIuIuYCYCYCYCYCYCwawaNfwawawazRzRzRzRokzRzRsfzRokzRzRzRzRrOkmokwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgroZNkNkNkZdgrNkTuNkoZgrNkFRNkgrgrlSgrOfgrgrgrgrgrgrgrYhgrgrgrgrymYhdwZLZLZLZLZLlSvCHIlxQTvCdwdwhaOBvCvClSZLZLZLZLZLZLZLZLdwjejejeYCYCYCmbwaBJNfnNmEwaokokokokokokokokokokokokokokokokokwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSKgAhufKgKgsbKgKgAhKgqEKgKgsbKgKgKglSwKwKwKBYgrYhgrgrgrgrgrgrgrYhymYhdwZLZLZLZLdwdKQTvClxvCVkYhlxhavCvCvCdwZLZLZLZLZLZLZLZLZLjefajejvjvjeYCOLROnNlFygwaoklXokokokokokokokokokokokokokokokwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgrbhgrgrgrymgrYhNAYhgrgrgrymgrtXgrlSgrgrgrSbgrYhYhYhYhYhYhZLgrYhymYhZLZLZLZLZLdwlSZjFyfCOPnIYhdwhaQTvCvClSZLZLZLZLZLZLZLZLZLjegbgbgbBAjeYCjeNfnNnNROjOROokokokokzRzRzRzRlzzRzRzRzRokokokwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgroZNkNkNkymYhdgEJdgYhtXNkFRNkgrgrlSgrGvgrPUgrgrgrgrgrgrlIwKwKYhymYhZLZLZLZLZLdwXivCvClxQTVkYhdwdwJDvCOBdwZLZLZLZLZLZLZLZLZLjvgbgbqOwijeDewaaRnNnNnNwaDZtzDZokokzRZLZLzRokzRZLZLzRokokokwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgrtNrhTmiWQyNAEJQYEJNAozgoTmFbgrgrlSgrgrgrSbgrgrgrgrgrYhoZgrgrYhymYhZLZLZLZLZLdwlSUIHQouUIUIYhlxhadwdwdwdwZLZLZLZLZLZLZLZLZLjvcwWvcwuojeyuwawawawawawaJvtzJvokokzRZLZLzRokzRZLZLzRokwawawaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgroZNkNkNkymYhdgEJdgYhtfNkTusYgrgrYhYhYhYhSbYhYhYhYhgrZLoZGvgrYhymYhZLZLZLZLZLFMlSCBMqyQVkVkYhlxhadwdwdwdwdwZLZLZLZLZLZLZLZLjvgbcwyugbOLyuwaIJvCqCdnwanGtznGokokWOzRzRzRokzRzRzRzRlzwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgroZtXgrgrymgrYhNAYhTvImiUoZOfgrgrFVgrgrGZkdYhwPwPYhgrYhoZZLgrYhymYhdwdwtgtgtgtgbztgtgJdtgtgtgtgpYtgtgtgoDZLZLZLZLZLZLZLZLZLjvoXgbgbCMjeyuwagbbevCvCgbwawawawawawawawawawawawawawawawaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgriiKgKgKgcMKgKgqEKgKgbuKgqEHMKgKgQCKgKgbyKgYhgrOfQWgrYhZLgrgrYhymVPlcgrgrgrNkNkgrgrNkgrgrgrgrNkgrFMjedwZLZLZLZLZLZLZLZLZLZLjvrQLGgbSqjeYCwagbvCvCvCxbwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgrYhNkNkNkymgrNkNkNkOfOfsYNkNkYhgrYhgrgrgrgrYhgrgrYhgrZLoZgrgrgrymYhFMvCvCdKFMFMtgXitgtgtgtgtgjejejejedwdwZLZLZLZLZLZLZLZLjejejejeyuSqjeYCwagbvCONvCgbwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgrYhNkAlNkymgrNkAlNkgrgrNkAlNkYhgrlSYhYhYhgrYhgrgrYhYhYhYhgrOfgrymYhFMZLvCvCFMFMFMFMFMFMFMFMFMjeqBLLjedwZLZLZLZLZLZLZLZLdwjemoIRjeyuMWjewawavCLbvCLbdwwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMsWsWsWsWsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgrYhNkNkNkymgrNkNkNkgrgrNkNkNkYhgrlSgrgrgrgrYhgrgrgrgrgrgrgrgrgrymYhFMZLvCvCvCFMFMFMFMFMFMFMFMjeqBLLjvdwZLZLZLZLZLZLZLZLdwjvmoqBPlPlPlPlYCjejejejedwwawasWsWsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMsWFMFMFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgroZgrgrgrymgrgrgrgrgrgrgrgrgrgrgrlSgrOfgrgrYhgrgrgrgrYhGvgrGvgrymYhFMFMvCvCvCvCFMFMFMFMFMFMFMjeqBLLjvdwZLZLZLZLZLZLZLZLdwjvmoqBPlveYCPlYCjeSeSejedwyujejejeFMsWFMFMFMFMFMFMFMFMFMYZYZFMFMsWFMslFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMlSgroZgrgrgrymgrgrgrgrgrgrgrgrgrgrgrlSgrgrgrgrYhgrgrOfgrYhgrgrgrgrymYhFMFMFMFMFMFMFMFMFMFMFMFMYCYCYCWTvGZLZLZLZLZLZLZLZLZLZLvGdwYCFpYCUOBCYCYCYCYCYCYCdwdwdwsNFMsWFMFMYZYZYZYZYZYZYZYZFMueFMsWFMslFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMbztgtgtgtgtgtgtgtgtgtgtgtgtgtgtgtgtgYhYhYhYhYhYhgrcXgrgrYhgrgrOfgrymYhFMFMFMFMFMFMFMFMFMFMFMSTYCYCYCjWvGZLZLZLZLZLZLZLZLZLZLdwdwYCvCvCYCYCXrYCYCYCYCYCdwYCYCYCFMsWFMFMYZsNpxJOsNsNsNsNueGaFMsWFMslFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYhYhYhYhYhYhYhYhYhYhYhYhFMFMFMFMFMFMFMFMFMFMFMYCgrFbgrZDpCZLZLZLZLZLZLZLZLZLZLdwgrFbgrYCYCSTYCgrFbgrYCYCgbgbXruPFMsWSGFMsNsNJOxqptNEzXsNueueFMFMslslslFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYCSTpDYCAzZLZLZLZLZLZLZLZLZLZLZLZLYCYCSTYCYCYCYCYCYCTGYCgbbTEEbTbTFMFMsNsNNENEsNOTfNdAsNsNGaueememememFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMdwdwYCYCYCdwvGZLZLZLZLZLZLZLZLZLZLdwFqYCqBjYCYZWvCHyYCXrYClabTdwdwMDdwsNsNOKLqCfNEOTOKLqCfsNueueememememFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMdwdwdwdwbLYCYCvGZLZLZLZLZLZLZLZLZLZLYCjejejeKKjejejejeKGjejeYZZVVMdwdwrcdwsNNENEsNsNsNsNsNsNSGueGaemememFMsWsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMsNsNsNFMsNsNsNsNsNFMFMFMFMFMFMFMFMFMFMFMFMdwFMkwdwdwWlWlFMFMFMZLZLZLZLZLZLZLZLZLZLZLZLFMPlKKFMFMjesuWPsuCpYZawdwxLdwdwNEdwNEsNsNCZsNsNsNsNueueueFMFMFMsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMsNFMFMsNsNsNsNsNsNsNFMsNsNsNsNFMsNsNsNsNsNsNsNsNsNsNsNsNWlWldwdwdwFMFMdwZLZLZLZLZLZLZLZLZLZLZLZLZLPlKKFMFMjeKXFMsNsNYZXsOTZVsNNENEFMNEdwsNsNsNsNsNsNueFMFMFMFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMsNsNsNsNsNueueueueueueueueueueueueueueueueGaueueueuesNsNsNkwkwWldwFMFMZLZLZLZLZLZLZLZLZLZLZLZLFMZLjeKKFMFMqpOZuOOZsNYZXsFeOTFMNENEdwNEsNsNFMFMFMFMFMFMFMFMFMsWsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMsNsNsNsNsNsNueueueueueueueueueueueueueueueueueueueueueueGaVgsNsNsNkwdwdwFMFMFMZLZLZLZLZLZLZLZLZLZLZLZLZLjeKKFMjedwdwFMFMsNYZOTNEZJNENENEdwNEbTbTbTbTFMFMFMFMFMFMsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMsNsNsNsNsNFMFMueueueueueueueueueueueueueueueSNueVguesNsNsNsNueueuesNsNWldwdwdwFMFMZLZLZLZLZLZLZLZLZLZLZLZLFMFMKKFMFMFMjeFMFMFMYZsNsNueSGsNsNdwNENENENEFMFMFMFMFMFMsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMsNsNsNsNsNsNueueueueGaueueueueueDcueueGaGaueGaueueuesNsNdwdwsNueueGasNsNkwdwFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLZLFMFMFMFMFMFMFMFMFMFMFMFMFMsNsNsNSGsNNENEsNSGsNsNNENEFMsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMsNsNsNsNuesNueueueueueueueGaueueueueueueueueueueueueSGsNdwdwsNueueueueuesNdwFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLZLZLZLZLFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMsNNEIOYZYZYZYZsWsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMsNsNsNuesNueueueueueueueVgueueueueueSNueSNueuexIsNsNsNSGsNsNsNzYsNPTueueueuesNFMFMFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLZLZLZLZLFMFMFMFMFMFMFMFMFMFMFMFMFMYZYZFMIONEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMsNsNsNueueueueueueueueueueGaueueueueueueueuesNCZdwdwsNsNsNGaueueueueueueueuesNFMFMFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLZLFMFMZLFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZCzNEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMsNsNsNueueueueueueGaueueueDcueueueueueueGauesNdwdwVgueueueueueueueueueueuesNsNFMFMFMFMFMFMFMFMZLZLZLZLZLZLZLZLZLZLFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZYZTAYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMsNFMsNsNueGaueGaueueueueueVgueueueueueueueuezYsNdwdwPTVgueueueueSNueueueueuesNsNFMFMFMFMFMFMFMFMZLFMZLZLZLZLZLZLFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZBtNEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMsNsNsNsNueueueueueueueueueueueueueueueueuesNsNsNsNdwsNsNVgueueueueGaueueueuesNsNFMFMFMFMFMFMFMFMFMFMFMZLZLZLZLZLFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMXZtdtdYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMsNsNueGaueueuemOSNueueueueuesNsNsNsNsNsNsNsNsNSGsNsNsNueueueueueueueueuesNsNFMFMFMFMFMFMFMFMFMFMZLZLZLZLZLFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMXZtdoBKmFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMsNsNueueueueueueueueueuesNsNsNknJMesdwsNsNsNsNsNsNdwsNueueueueueueueueuesNsNFMFMFMFMFMFMFMFMFMZLZLZLZLZLFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZtdwSYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMsNFMsNueueGaueGaueueueGaueuesNsNWBqIdwknsNsNsNzYsNsNdwdwsNGaueueSNueueueuesNsNsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZIFNEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMsNsNsNGaueueueueueueueueuesNsNsNWBWBldGldwsNsNsNsNdwsNzYsNGaGaueuesNsNsNuesNsNsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNEoBYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMsNueueueueueueueueuesNsNldhhhhhhAXsNsNueuesNsNsNueueuesNsNsNsNdwsNuesNsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMsNsNsNueueueueGaueueDcuesNsNdwVMldhhtCsNsNueueueSNueGaueuesNdwdwdwsNsNuesNsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZoBNEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMsNueueueueueueueueueueuesNsNdwsNdwsNsNueueueueueueueueuesNdwdwsNsNueuesNsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZIONEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMsNFMueueGaueueueueGaueueueuesNsNsNsNsNueueueueueueueueueuesNsNsNsNueueuesNsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZoBIOYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMueueueueueueueueueueueueueueueueueueueueueVgueueueueueueueueueueueuesNsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMsNFMFMsNueueueueGaueueueueueueDcueueueueVgDcueueueueueueGaGaueDcueueueueueuesNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZwSNEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMsNsNsNsNuedwFMFMueueDcueueVgueueSNueueueueueueueueueueueueueueueueueueuesNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMsNsNuedwdwdwFMFMFMFMueueueueueueueueueueVgueueueueueueueueueueueueuesNsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNETgYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMsNsNsNsNsNdwFMFMFMFMueueueueueueueueueueueueueueueueueueueueueueuesNsNueFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMsNsNsNsNsNdwsNFMFMsNueueueueueueueueueueueueueueueueueueueueueuesNsNsNsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZoBNEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMsNsNsNsNsNsNsNFMsNsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMsNsNsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMsNsNsNsNsNsNsNsNsNFMFMsNFMFMsNFMFMFMsNsNsNsNFMsNFMsNFMsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMsNFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZoBNEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNEoBYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZoBNEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMKmNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNEXQYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZNENEYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZQUQUYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMsWsWYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZYZFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMPKFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZdwdwsNZqdwdwVMdwdwdwVMdwdwdwYZFMFMFMFMFMFMFMFMFMFMFMVSVSVSVSVSVSVSVSVSVSVSVSFMVSVSVSVSVSVSFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZdwYZYZYZYZYZYZYZYZYZYZYZYZdwYZFMFMFMFMFMFMFMFMFMFMVSVSVSVSVSVSVSVSVSVSVSVSVSVSVSVSVSVSkEVSFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+"}
+(1,1,2) = {"
+FMFMFMFMFMFMFMFMFMFMFMFMFMTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYW
+FMFMFMFMFMFMFMFMFMFMFMFMFMTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMksksFMwaTCYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYW
+FMFMFMFMFMFMFMFMFMFMFMFManTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMksksksjTdqTCYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYW
+FMFMFMFMFMFMFMFMFMFMFMTCTCTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMksksksTCTCdqTCYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYW
+FMFMFMFMFMFMFMFMFMFMTCTCTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMksksTCjTjTjTwaFMYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYW
+FMFMFMFMFMFMFMFManTCTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjTjTTCFMFMFMFMYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWrf
+FMFMFMFMFMFMFMTCTCTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjTjTTCTCFMFMFMFMFMFMYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWrfJYJY
+FMFMFMFMFMTCTCTCTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMwaFMJYJYJYwaJYJYJYJYJYFMFMFMTCjTjTTCTCFMFMFMFMFMFMFMFMFMFMYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWrfJYJYJYJY
+FMFMFMTCTCTCTCTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCTCTCTCjTjTjTjTjTTCTCanFMFMTCTCjTTCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWrfFMFMFMJYJYJYJYJYJY
+FMTCTCTCTCTCTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCFMFMFMFMFMFMFMFMFMFMFMFMFMjTjTTCTCjTjTjTjTjTjTjTjTjTjTjTTCTCTChkjTjTjTFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWYWYWYWrfwadqdqwaFMFMFMFMJYJYJYJYJYJY
+FMTCTCTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCslemFMFMFMFMFMFMFMFMFMFMFMFMTCjTTCTCTCTCTCjTjTjTjTTCTCTCTCTCTCTCjTjTjTjTFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCFMFMFMFMFMJYJYJYJYJYJY
+TCTCTCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCslslslemslFMFMFMFMFMFMFMFMFMFMFMwaTCjThksWsWsWsWwasWsWsWsWwasWsWsWsWwadqdqwaFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCFMFMFMFMFMJYJYJYJYJYJY
+TCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCslslslslemslemFMFMFMFMFMFMFMFMwaFMTCTCjTTCTCsWPlPlPlPlPlPlPlPlPlPlPlPlPlsWTCTCFMFMFMFMFMFMFMFMFMksksksksksksksksFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTjTFMFMFMFMFMJYJYJYJYJYJY
+TCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCslslslslslemslemFMFMFMFMFMFMFMFMFMTCjTjTjTTCTCansWPlIbJgBrNLPlPldHQMLramqNPlsWTCTCFMFMFMFMFMFMFMFMFMksksksksksksksksFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTTCFMFMFMFMFMJYJYJYJYJYJY
+TCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCslslslslslslslslemslFMFMFMFMFMFMFMTCTCjTjTTCTCTCwaFMsWPlFMJgJgJgPlPlykjiOZOZHVPlsWTCTCkEFMFMFMFMFMFMFMFMksksksksksksksksFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTTCTCFMFMFMFMJYJYJYJYJYJY
+TCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCYWslslslslslslslslslemFMFMFMFMFMwaTCTCjTTCTCTCFMFMFMFMsWPlJgJgIbIbPlPlQIOZOZOZVGPlsWkEkEkEFMFMFMFMFMFMFMFMksksksksksksksksFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTTCTCwaFMFMFMJYJYJYJYJYJY
+TCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCYWslYWslslslslslslslslFMFMFMFMFMTCTCjTjTjTTCwaFMFMFMFMFMsWPlJgJgJgJgfwJgOZOZOZFcOZPlsWFMFMFMFMFMFMFMFMFMFMFMksksksksksksksksFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMwajTTChkFMFMFMFMJYJYJYJYJYJY
+TCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCYWYWYWYWslslslslslslslslslFMFMwaFMTChkjTjTTCTCFMFMsWsWsWsWsWsWPlPlPltpNLPlJgJgUbJgJgJgPlsWsWFMFMFMFMFMFMFMFMFMFMksksksksksksksksFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTjTTCFMFMFMFMJYJYJYJYJYJY
+TCTCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCsCTCTCsCYWYWYWslslslslslslslslslslslFMFMdqTCTCjTjTTCFMFMFMFMsWQVtgtgtgtgtgpUPlPlPlPlPlJgJgJgJgJgPlPlsWsWsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjTTCFMFMFMFMJYJYJYJYJYJY
+TCTCTCTCsCsCsCsCsCsCsCsCsCsCTCTCTCTCTCTCTCTCYWYWYWslslslslslslslslslslslTCdqTCjTQjTCwaFMFMFMFMsWlSOTcwKRcwOTStQPYhFMFMPlOLPlPlPlPlPlPlPlPlPlsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjTjTFMFMFMFMJYJYJYJYJYJY
+TCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCslslslslslslslslslslslTCdqTCTCTCFMFMFMFMFMFMsWlSOTcwYUwiOTlSYhYhFMFMPlyuDryuyuyuFMFMFMFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMhkTCjTTCFMFMFMFMFMFMFMFMFM
+TCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCTCanTCTCTCTCTCTCslslslslslslslslslslslsldqanFMFMFMFMFMFMsWsWsWlSOTcwcwKROTlSFMPlPlPlPlzfzfzfyuyuyuFMFMFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjTjTTCFMFMFMFMFMFMFMFMFM
+FMTCTCTCTCTCTCTCanTCTCTCTCTCTCFMFMFMFMFMFMFMTCTCTCTCTCslslslslslslslslslslwaFMFMFMFMFMFMFMsWQVtgYhtgrwtgtgtgoDFMPligyuPlyuyuzfzfzfzfzfzfzfFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMwajTjTjTwaFMFMFMFMFMFMFMFM
+FMFMTCTCTCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCTCTCslslslslslslslslslFMFMFMFMFMFMFMFMsWlSzfGwvCvCvCvCvCvCvCPldwndcKyuyuyuyuzfzfzfzfzfFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTTCjTFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFManTCTCTCTCslslslslslslslslFMFMFMFMFMFMFMFMsWlSyuYCBCtSSTYCdwdwdwPlyuIuyugryukhyuyuzfzfzfzfFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjThkjTTCFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCTCYWslslslslslslslFMFMFMFMFMFMFMFMsWlSdwYCYCYCvCvCvCvCBhIxvwCandNkyuyujryuzfzfzfzfzfsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTTCjTTCFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCYWYWYWYWYWYWslslslslslslFMFMFMFMFMFMFMsWlSIPvCvCvCbeQTvCbKeFRyyucKyugryucKyuyuTCTCFMFMsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTTCTCjTFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMkEYWYWYWYWYWYWslslslslslslFMFMFMFMFMFMFMsWlSvCvCqudwYhYhdKYhlSIxEdDgDgDgDgDgDgyuTCTCFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTChkTCjTTCFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMkEkEkEkEkEslslslslslslslslFMFMFMFMFMFMFMsWlSvCvCvCIPYhsnvCvCfUIxzfzfzfzfzfzfzfTCTCTCFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCjTTCFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslslslslslslslFMFMFMFMFMFMFMsWlSIPVdKodwYhRavCuhlSuMPuPuPuPuPuPuPuQSQSzfFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjTjTTCFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMsWbztgtgtgtgtgtgtgtgoDIxzfzfzfzfzfzfzfTCzfzfFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTTCjTFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMFMFMFMFMFMTCTCzfzfzfzfIxzfzfzfzfzfzfzfTCTCTCFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTjTjTwaFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMFMFMFMFMTCTCTCzfzfzfzfIxzfzfzfzfzfzfzfTCTCTCFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMwaTCjTjTFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMsWsWsWFMTCTCzfzfzfzfzfIxzfzfzfzfzfzfzfzfTCTCFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjTjTFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslslslslslslslslFMFMFMFMFMFMFMsWFMzfzfzfLLssqBqBqBssqBqBdpqBqBmozfzfFMFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjTTCFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMFMsWzfzfzfzfLLqBqBqBqBtTqBqBqBqBqBmozfzfzfzfFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjTjTTCFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMFMsWzfzfzfzfLLssdpqBqBqBqBZlqBqBqBmozfzfzfzfFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCjTFMwaFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslslFMFMFMFMFMFMsWFMzfzfzfzfzfNxzfzfzfzfJbzfzfzfzfzfzfzfzfFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslslslslslslslslFMFMFMFMFMFMsWFMzfzfzfzfzfNxzfzfzfzfJbzfzfzfzfzfzfzfzfFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjTjTTCFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMsWFMzfzfzfzfzfYyWbWbWbWbvtzfzfzfzfzfFMFMFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMwajTjThkTCFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMsWFMFMzfzfzfzfNxzfzfzfzfJbzfFMFMFMFMFMFMFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTTCTCjTjTFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMsWFMFMFMFMFMFMFMzfzfFMFMFMFMFMFMFMFMFMFMFMFMsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTjTTCTCTCFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslslslslslslslslFMFMFMFMFMsWsWsWsWsWsWsWsWsWsWsWsWsWsWsWsWsWsWsWsWsWsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCTCTCFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMwadqdqwaFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslslslslslslslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjTjTTC
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTTCjT
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCjT
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslslslslslslslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMjTjT
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslslslslslslslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslslYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslslslslYWslYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslslslslYWslYWslslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslslYWslYWslYWslYWslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslslYWslYWslYWslYWslYWYWYWYWYWYWYWslFMFMFMFMFMFMYWYWYWYWYWYWYWYWYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWslYWslYWslYWslYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWslYWslYWslYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWslYWslYWslYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCslYWslYWslYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWslYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFManTCYWslYWslYWslYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWslYWslYWYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCYWslYWslYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWslYWslYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCTCYWYWYWslYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWslYWslYWslYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCTCTCYWslYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWrfFMFMFMFMFMYWYWYWYWYWYWYWYWslYWslYWslYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCTCTCTCTCYWYWYWYWYWYWYWYWYWYWYWYWYWrfFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWYWYWslYWslYWslYWslslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCTCTCTCTCTCTCYWYWYWYWrfFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWYWslYWslYWslYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCTCTCTCTCTCTCTCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslYWslYWslYWslYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCTCTCanFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslYWslYWslYWslYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslYWslYWslYWslYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWslYWslYWslYWslYWYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMslYWslYWslYWslYWslYWYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslYWslYWslYWslYWslYWYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslYWslYWslYWslYWYWYWYWYWYWslFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTC
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWslYWslYWslYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWslFMTCTCTC
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWYWslYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYW
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYW
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYW
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYW
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYW
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMsCFMsCsCsCsCFMFMYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYWYW
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMsCsCsCRUsCsCsCsCFMFMFMFMFMFMFMFMFMFMFMFMFMYWYWYWYWYW
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCYZYZFMFMFMFMFMFMFMFMFMFMFMFMFMjejejeje
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMzfzfFMFMFMFMFMFMYZTCNENENEYZFMFMFMFMFMFMFMFMFMjejejejejejejean
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMQUQUFMFMFMFMFMFMYZNENENENEYZFMFMFMFMFMFMFMFMjejesNZhsNTCjemcTC
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMrpdwdwYZYZYZYZYZrprprpYZYZxUYZYZFMFMFMFMFMFMjejeyLsNFMZhsNLdTCTC
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMrpgxcwKmiNLiYZoFsNsNueMEYZdwXpYZYZYZYZFMFMjejebBdwCNsNsNZhjejean
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZYZYZYZYZcwcwcwQgcwhGcwZhcvsNueYZdwQwQgQgWdYZYZFMFMtRgbueueWldwkwjeFMTC
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMrplBChpGbTcwdwcwcwjAueoFcwdwueXYYZYZdwdwWnQwWlYZYZsNsNSGueFMueWlxujeFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMrpyujryubTcwcwdwdwueoFoFdwhesNgbvrdwcwqfcwhGcwFMYZgbSGsNSGgbsNsNFMjeFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZyuyuyuYZFMcvFMdwueoFueueZhsNsNFMXZCScwcwcwQgdwFUmKFMCZSGgbgbsNFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMdwqpdwdwdwgxgxdwgxueueoFuesNEasNFMYZYZYZYZnTcwWlXZgbsNsNsNSGsNsNFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZcwdwpPueueueueYZYZYZYZYZYZFMFMYZfdYZYZYZgbgbgbgbFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZcvcwYZueueFMYZYZFMFMFMFMFMFMFMYZYZYZFMYZXZYZFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZYZYZPeYZYZYZYZYZYZFMFMTCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZdwFkdwdwFkqTYZFMFMTCTCTCTCsWsWFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZdwFkdwFkFkdwYZFMFMFMTCTCTCdWdWTCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZdwFkFkKNulpoYZFMFMFMFMTCTCTCTCTCTCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFM
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMYZYZYZYZYZYZYZYZFMFMFMFMFMFManTCTCTCFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTC
+FMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMFMTCTCTCTCFMFMFMFMFMFMFMFMFMFMFMFMFMTCTC
+"}

@@ -1,0 +1,83 @@
+"a" = (/turf/closed/mineral/random/rogue,/area/rogue)
+"d" = (/obj/structure/mineral_door/wood{lockid = "manor"},/turf/open/floor/rogue/churchmarble,/area/rogue)
+"e" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard/crypt_guard,/turf/open/floor/rogue/church,/area/rogue)
+"f" = (/obj/structure/fluff/statue/knightalt/r,/obj/structure/fluff/walldeco/customflag{pixel_x = -32},/turf/open/floor/rogue/church,/area/rogue)
+"g" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard/crypt_guard,/turf/open/floor/rogue/churchrough,/area/rogue)
+"h" = (/obj/structure/rack/rogue,/obj/item/reagent_containers/glass/bottle/rogue/healthpot,/turf/open/floor/rogue/church,/area/rogue)
+"i" = (/obj/machinery/light/rogue/firebowl/church,/turf/open/floor/rogue/church,/area/rogue)
+"j" = (/turf/closed/wall/mineral/rogue/decostone/center,/area/rogue)
+"o" = (/obj/structure/chair/bench/church/mid{dir = 1},/turf/open/floor/rogue/church,/area/rogue)
+"p" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"r" = (/turf/closed/wall/mineral/rogue/decostone/long,/area/rogue)
+"s" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard,/turf/open/floor/rogue/church,/area/rogue)
+"t" = (/obj/structure/table/church,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"u" = (/obj/machinery/light/rogue/firebowl/standing,/turf/open/floor/rogue/church,/area/rogue)
+"w" = (/turf/closed/mineral/rogue/bedrock,/area/rogue)
+"x" = (/obj/structure/roguewindow/stained/yellow,/turf/open/floor/rogue/church,/area/rogue)
+"y" = (/turf/open/floor/rogue/churchmarble,/area/rogue)
+"z" = (/obj/structure/bed/rogue/inn/hay,/turf/open/floor/rogue/church,/area/rogue)
+"A" = (/obj/structure/closet/crate/coffin,/turf/open/floor/rogue/churchrough,/area/rogue)
+"B" = (/obj/structure/fluff/statue/knight/interior/r,/turf/open/floor/rogue/church,/area/rogue)
+"D" = (/obj/structure/fluff/statue/tdummy,/turf/open/floor/rogue/church,/area/rogue)
+"F" = (/obj/structure/fluff/psycross/copper,/turf/open/floor/rogue/church,/area/rogue)
+"G" = (/mob/living/simple_animal/hostile/rogue/skeleton/axe,/turf/open/floor/rogue/church,/area/rogue)
+"H" = (/turf/open/floor/rogue/churchrough,/area/rogue)
+"I" = (/turf/closed/wall/mineral/rogue/decostone/long{dir = 1},/area/rogue)
+"J" = (/obj/structure/fluff/drake_statue/falling,/obj/structure/fluff/statue,/turf/closed/wall/mineral/rogue/decostone/cand,/area/rogue)
+"K" = (/obj/structure/fluff/statue/knightalt,/turf/open/floor/rogue/church,/area/rogue)
+"L" = (/obj/structure/fluff/traveltile{aportalgoesto = "horror1"; aportalid = "horror2"; desc = "A disturbingly lifelike statue... Did it just move?"; icon = 'icons/roguetown/misc/tallstructure.dmi'; icon_state = "td"; name = "The Horror"},/turf/open/floor/rogue/church,/area/rogue)
+"M" = (/obj/structure/fluff/statue/astrata/gold{pixel_x = 15},/turf/open/floor/rogue/church,/area/rogue)
+"N" = (/obj/structure/fluff/drake_statue/falling,/turf/open/floor/rogue/churchrough,/area/rogue)
+"O" = (/obj/structure/fluff/statue/knightalt,/obj/structure/fluff/walldeco/customflag{pixel_x = 32},/turf/open/floor/rogue/church,/area/rogue)
+"P" = (/mob/living/simple_animal/hostile/rogue/skeleton/guard/crypt_guard,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"Q" = (/obj/structure/table/church/m,/obj/item/clothing/under/roguetown/platelegs/blk{max_integrity = 500; name = "blessed blacksteel legs"},/obj/item/clothing/shoes/roguetown/boots/armor/blkknight,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"R" = (/obj/structure/chair/bench/church{dir = 1},/turf/open/floor/rogue/church,/area/rogue)
+"S" = (/obj/structure/fluff/statue/gargoyle/moss/candles,/turf/open/floor/rogue/church,/area/rogue)
+"T" = (/obj/structure/table/church{dir = 1},/turf/open/floor/rogue/churchmarble,/area/rogue)
+"U" = (/mob/living/simple_animal/hostile/rogue/skeleton/axe,/turf/open/floor/rogue/churchmarble,/area/rogue)
+"V" = (/turf/closed/wall/mineral/rogue/decostone,/area/rogue)
+"W" = (/obj/structure/fluff/statue/knight/interior,/turf/open/floor/rogue/church,/area/rogue)
+"X" = (/obj/structure/mineral_door/wood{lockid = "manor"},/turf/open/floor/rogue/cobble,/area/rogue)
+"Y" = (/turf/open/floor/rogue/church,/area/rogue)
+"Z" = (/obj/structure/fluff/walldeco/church/line{dir = 4},/obj/structure/chair/bench/church/r{dir = 1},/turf/open/floor/rogue/church,/area/rogue)
+
+(1,1,1) = {"
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaw
+waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaw
+waaaaaaaaVIIIIIIIVIIIIIIVIIIIIIIIIVaaaw
+waaaaaaaarKYFiFYKrKYFiFKriYYKFKYYiraaaw
+waaaaaaaarYeYYYYYrYYYYeYrYYYYYYYYYraaaw
+waaaaaaaarYYYyyPydyyyyYYrYYutQTuYYraaaw
+waaaaaaaarYYYyYYYrSYeyYSrYYYYyYYeYraaaw
+waaaaaaaarieYyYYirHHHyHHreRoZyRoZYraaaw
+waaaaaaaaVIIIdIIIVSYiyiSrYYYYyYYeYraaaw
+waaaaaaaarYYYyYYYrHHHygHrYRoZyRoZYraaaw
+waaaaaaaarSYYyYeSrSeYyYSrYYYeyYYYeraaaw
+waaaaaaaarHHHyHHHrHHHyYYrYRoZyRoZYraaaw
+waajIIIIIVSYiyiYSrSYYyPydyyyyyYYYYraaaw
+waarfMYYOrHgHyHHHrHHHyYYrYeYYYYYYeraaaw
+waaryyyyyrSYYyeYSrSYiyiSriYYYiYYYiraaaw
+waaxYiyiYxHHHyHHHrHgHyHHVIIIIIIIIIVaaaw
+waarANyHArSYiyiYSrSYYyeSreYYYYYeYYraaaw
+waarSYyYSrHgHyHgHrHHHyHHrYzhYziYzhraaaw
+waaxAgyHAxSYYyYYSrSYiyiSrYYYYYYYYYraaaw
+waarSYyYSrHHHyHHHrHHHyYYrYziYzhYziraaaw
+waarAHPHArSYiyiYSrSYYyyPdYYYYYYeYYraaaw
+waaxSiyiSxHHHygHHrHHHyYYrYzhYziYzhraaaw
+waarAHyHArSYeyYYSrSeYyYYrYYeYYYYYYraaaw
+waarSYyYSrYYYyYeYrYYFiFYreziYzheziraaaw
+waaxAHyHAxIIIdIIIVIIIIIIVIIIIIIIIIVaaaw
+waarWYPYBJYYYyYYsiYYYYYYiYeYYYiYYeraaaw
+waaryyyyyXpyyyyyyyyyyyyyyyyyyyyyyyraaaw
+waarYFiFYrYYsyYYYiYYYYYYiYYYeYyYYYraaaw
+waajIIIIIVIIIdIIIIIIIIIIIIIIIIdIIIVaaaw
+waaaaaaaariKYyYKiKYKiKLKiKYKiKyYKiraaaw
+waaaaaaaarYYGyYYYGYYYYYYYYYGYGyYYYraaaw
+waaaaaaaarYYYyUyyyyyyyyyyUyyyyyYGYraaaw
+waaaaaaaarYGYiYYYGYYGiYGYYYYYYiYYYraaaw
+waaaaaaaarYDYYYDGYYDYYYDYGYDGYGYDYraaaw
+waaaaaaaaIIIIIIIIIIIIIIIIIIIIIIIIIraaaw
+waaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaw
+wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
+"}
