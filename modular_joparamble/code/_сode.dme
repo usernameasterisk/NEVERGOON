@@ -1,0 +1,7 @@
+#ifndef code_modular
+#define code_modular
+
+#include "modules\client\customizer\customizers\organ\genitals.dm"
+#include "_DEFINES\DNA.dm"
+#include "_DEFINES\preferences.dm"
+#endif
