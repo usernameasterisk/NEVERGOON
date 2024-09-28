@@ -63,7 +63,6 @@
 	beltl = /obj/item/rogueweapon/huntingknife/idagger/steel
 	backpack_contents = list(/obj/item/lockpickring/mundane)
 	ADD_TRAIT(H, TRAIT_STEELHEARTED, TRAIT_GENERIC)
-	ADD_TRAIT(H, TRAIT_DODGEEXPERT, TRAIT_GENERIC)
 	H.change_stat("strength", -1)
 	H.change_stat("perception", 2)
 	H.change_stat("speed", pick(3,4))
