@@ -2,6 +2,7 @@
 GLOBAL_LIST_INIT(character_flaws, list("Alcoholic"=/datum/charflaw/addiction/alcoholic,
 	"Devout Follower"=/datum/charflaw/addiction/godfearing,
 	"Nymphomaniac"=/datum/charflaw/addiction/lovefiend,
+	"Greedy"=/datum/charflaw/greedy,
 	"Smoker"=/datum/charflaw/addiction/smoker,
 	"Junkie"=/datum/charflaw/addiction/junkie,
 	"Leper"=/datum/charflaw/rotten,
@@ -173,6 +174,90 @@ GLOBAL_LIST_INIT(character_flaws, list("Alcoholic"=/datum/charflaw/addiction/alc
 			break
 	if(cnt > 6)
 		user.add_stress(/datum/stressevent/parablood)
+
+/datum/charflaw/greedy
+	name = "Greedy"
+	desc = "I can't get enough of mammons, I need more and more! I've also become good at knowing how much things are worth"
+	var/last_checked_mammons = 0
+	var/required_mammons = 0
+	var/next_mammon_increase = 0
+	var/last_passed_check = 0
+	var/first_tick = FALSE
+	var/extra_increment_value = 0
+
+/datum/charflaw/greedy/on_mob_creation(mob/user)
+	next_mammon_increase = world.time + rand(15 MINUTES, 25 MINUTES)
+	last_passed_check = world.time
+	ADD_TRAIT(user, TRAIT_SEEPRICES_SHITTY, "[type]")
+
+/datum/charflaw/greedy/flaw_on_life(mob/user)
+	if(!first_tick)
+		determine_starting_mammons(user)
+		first_tick = TRUE
+		return
+	if(world.time >= next_mammon_increase)
+		mammon_increase(user)
+	mammon_check(user)
+
+/datum/charflaw/greedy/proc/determine_starting_mammons(mob/living/carbon/human/user)
+	var/starting_mammons = get_mammons_in_atom(user)
+	required_mammons = round(starting_mammons * 0.7)
+	extra_increment_value = round(starting_mammons * 0.15)
+
+/datum/charflaw/greedy/proc/mammon_increase(mob/living/carbon/human/user)
+	if(last_passed_check + (50 MINUTES) < world.time) //If we spend a REALLY long time without being able to satisfy, then pity downgrade
+		required_mammons -= rand(10, 20)
+		to_chat(user, span_blue("Maybe a little less mammons is enough..."))
+	else
+		required_mammons += rand(25, 35) + extra_increment_value
+	required_mammons = min(required_mammons, 250) //Cap at 250 coins maximum
+	next_mammon_increase = world.time + rand(35 MINUTES, 40 MINUTES)
+	var/current_mammons = get_mammons_in_atom(user)
+	if(current_mammons >= required_mammons)
+		to_chat(user, span_blue("I'm quite happy with the amount of mammons I have..."))
+	else
+		to_chat(user, span_boldwarning("I need more mammons, what I have is not enough..."))
+
+	last_checked_mammons = current_mammons
+
+/datum/charflaw/greedy/proc/mammon_check(mob/living/carbon/human/user)
+	var/new_mammon_amount = get_mammons_in_atom(user)
+	var/ascending = (new_mammon_amount > last_checked_mammons)
+
+	var/do_update_msg = TRUE
+	if(new_mammon_amount >= required_mammons)
+		// Feel better
+		if(user.has_stress_event(/datum/stressevent/vice))
+			to_chat(user, span_blue("[new_mammon_amount] mammons... That's more like it.."))
+		user.remove_stress(/datum/stressevent/vice)
+		user.remove_status_effect(/datum/status_effect/debuff/addiction)
+		last_passed_check = world.time
+		do_update_msg = FALSE
+	else
+		// Feel bad
+		user.add_stress(/datum/stressevent/vice)
+		user.apply_status_effect(/datum/status_effect/debuff/addiction)
+
+	if(new_mammon_amount == last_checked_mammons)
+		do_update_msg = FALSE
+
+	if(do_update_msg)
+		if(ascending)
+			to_chat(user, span_warning("Only [new_mammon_amount] mammons.. I need more..."))
+		else
+			to_chat(user, span_boldwarning("No! My precious mammons..."))
+
+	last_checked_mammons = new_mammon_amount
+
+/proc/get_mammons_in_atom(atom/movable/movable)
+	var/static/list/coins_types = typecacheof(/obj/item/roguecoin)
+	var/mammons = 0
+	if(coins_types[movable.type])
+		var/obj/item/roguecoin/coin = movable
+		mammons += coin.quantity * coin.sellprice
+	for(var/atom/movable/content in movable.contents)
+		mammons += get_mammons_in_atom(content)
+	return mammons
 
 /datum/charflaw/isolationist
 	name = "Isolationist"
