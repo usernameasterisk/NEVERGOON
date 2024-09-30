@@ -17,8 +17,8 @@ GLOBAL_LIST_INIT(named_breast_sizes, list(
 	"normal" = 3,
 	"large" = 4,
 	"enormous" = 5,
-	"towering" = 6,
 	/*
+	"towering" = 6,
 	"gigantic" = 7,
 	"gargantuan" = 8,
 	"colossal" = 9,
