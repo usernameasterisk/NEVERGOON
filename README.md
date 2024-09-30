@@ -1,6 +1,6 @@
 
-## Wiki
-The wiki is currently being worked on at [here](https://wiki.moviesfreepremium.xyz/blackstone)
+## Вики
+Все гайды, а так же позновательный контент на офф сервере Heartstone [discord](https://discord.gg/WGy2K8deAc)
 
-## Discord
-Come say hi on the [discord](https://discord.gg/nQDetK6ktR), it is where the community is the most active.
+## Наш дискорд
+Заходи, не бойся [discord](https://discord.gg/vgS2qKxGSX), отсюда ещё никто не выходил с вопросами.
