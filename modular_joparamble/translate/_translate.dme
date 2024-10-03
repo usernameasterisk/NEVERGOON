@@ -1,0 +1,5 @@
+#ifndef translate
+#define translate
+
+#include "code/translate.dm"
+#endif
