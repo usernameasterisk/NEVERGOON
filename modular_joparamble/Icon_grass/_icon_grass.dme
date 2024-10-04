@@ -1,0 +1,5 @@
+#ifndef icon_grass
+#define icon_grass
+
+#include "code/sprite.dm"
+#endif
