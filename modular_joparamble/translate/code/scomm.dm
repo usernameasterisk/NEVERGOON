@@ -1,5 +1,4 @@
-// [GOONWOOD-EIDT]
-/*
+
 /obj/structure/roguemachine/scomm
 	name = "SCOM"
 	desc = "The Supernatural Communication Optical Machine is a wonder of magic and technology."
@@ -26,12 +25,12 @@
 
 /obj/structure/roguemachine/scomm/examine(mob/user)
 	. = ..()
-	. += "<b>THE LAWS OF THE LAND:</b>"
+	. += "<b>Законы королевских земель:</b>"
 	if(!length(GLOB.laws_of_the_land))
-		. += span_danger("The land has no laws! <b>We are doomed!</b>")
+		. += span_danger("Законов нет! <b>Увы!</b>")
 		return
 	if(!user.is_literate())
-		. += span_warning("Uhhh... I can't read them...")
+		. += span_warning("Ээээ... Ничего не понимаю.")
 		return
 	for(var/i in 1 to length(GLOB.laws_of_the_land))
 		. += span_small("[i]. [GLOB.laws_of_the_land[i]]")
@@ -40,7 +39,7 @@
 	if(world.time > next_decree)
 		next_decree = world.time + rand(3 MINUTES, 8 MINUTES)
 		if(GLOB.lord_decrees.len)
-			say("The King Decrees: [pick(GLOB.lord_decrees)]", spans = list("info"))
+			say("Королевские указы: [pick(GLOB.lord_decrees)]", spans = list("info"))
 
 /obj/structure/roguemachine/scomm/attack_hand(mob/living/user)
 	. = ..()
@@ -50,7 +49,7 @@
 	playsound(loc, 'sound/misc/beep.ogg', 100, FALSE, -1)
 	listening = !listening
 	speaking = !speaking
-	to_chat(user, span_info("I [speaking ? "unmute" : "mute"] the SCOM."))
+	to_chat(user, span_info("Я [speaking ? "включаю" : "глушу"] SCOM."))
 	update_icon()
 
 /obj/structure/roguemachine/scomm/attack_right(mob/user)
@@ -60,9 +59,9 @@
 	playsound(loc, 'sound/misc/beep.ogg', 100, FALSE, -1)
 	var/contents
 	if(SSticker.rulertype == "King")
-		contents += "<center>KING'S DECREES<BR>"
+		contents += "<center>УКАЗЫ КОРОЛЯ<BR>"
 	else
-		contents += "<center>QUEEN'S DECREES<BR>"
+		contents += "<center>УКАЗЫ КОРОЛЕВЫ<BR>"
 	contents += "-----------<BR><BR></center>"
 	for(var/i = GLOB.lord_decrees.len to 1 step -1)
 		contents += "[i]. <span class='info'>[GLOB.lord_decrees[i]]</span><BR>"
@@ -123,7 +122,7 @@
 	if(H.voicecolor_override)
 		usedcolor = H.voicecolor_override
 	if(raw_message)
-		if(lowertext(raw_message) == "say laws")
+		if(lowertext(raw_message) == "Говорит законы")
 			dictate_laws()
 			return
 		for(var/obj/structure/roguemachine/scomm/S in SSroguemachine.scomm_machines)
@@ -137,13 +136,13 @@
 	if(dictating)
 		return
 	dictating = TRUE
-	repeat_message("THE LAWS OF THE LAND ARE...", tcolor = COLOR_RED)
+	repeat_message("Законы королевских земель...", tcolor = COLOR_RED)
 	INVOKE_ASYNC(src, PROC_REF(dictation))
 
 /obj/structure/roguemachine/scomm/proc/dictation()
 	if(!length(GLOB.laws_of_the_land))
 		sleep(2)
-		repeat_message("THE LAND HAS NO LAWS!", tcolor = COLOR_RED)
+		repeat_message("Законов нет!", tcolor = COLOR_RED)
 		dictating = FALSE
 		return
 	for(var/i in 1 to length(GLOB.laws_of_the_land))
@@ -160,9 +159,9 @@
 //SCOMSTONE                 SCOMSTONE
 
 /obj/item/scomstone
-	name = "emerald ring"
+	name = "SCOM-кольцо"
 	icon_state = "ring_emerald"
-	desc = "A golden ring with an emerald gem."
+	desc = "Золотое кольцо с изумрудом."
 	gripped_intents = null
 	dropshrink = 0.75
 	possible_item_intents = list(INTENT_GENERIC)
@@ -180,7 +179,7 @@
 //wip
 /obj/item/scomstone/attack_right(mob/user)
     user.changeNext_move(CLICK_CD_MELEE)
-    var/input_text = input(user, "Enter your message:", "Message")
+    var/input_text = input(user, "Обдумайте своё сообщение:", "Сообщить")
     if(input_text)
         for(var/obj/structure/roguemachine/scomm/S in SSroguemachine.scomm_machines)
             S.repeat_message(input_text)
@@ -196,7 +195,7 @@
 	playsound(loc, 'sound/misc/beep.ogg', 100, FALSE, -1)
 	listening = !listening
 	speaking = !speaking
-	to_chat(user, span_info("I [speaking ? "unmute" : "mute"] the scomstone."))
+	to_chat(user, span_info("Я [speaking ? "включаю" : "глушу"] колечко."))
 	update_icon()
 
 /obj/item/scomstone/Destroy()
@@ -266,9 +265,9 @@
 	return
 //LISTENSTONE		LISTENSTONE
 /obj/item/listenstone
-	name = "emerald choker"
+	name = "Изумрудный чокер"
 	icon_state = "listenstone"
-	desc = "A iron and gold choker with an emerald gem."
+	desc = "Железо и золото с изумрудом."
 	gripped_intents = null
 	//dropshrink = 0.75
 	possible_item_intents = list(INTENT_GENERIC)
@@ -292,7 +291,7 @@
 	playsound(loc, 'sound/misc/beep.ogg', 100, FALSE, -1)
 	listening = !listening
 	speaking = !speaking
-	to_chat(user, span_info("I [speaking ? "unmute" : "mute"] the scomstone."))
+	to_chat(user, span_info("Я [speaking ? "включаю" : "глушу"] чокер."))
 	update_icon()
 	if(listening)
 		icon_state = "listenstone"
@@ -329,5 +328,4 @@
 	else
 		send_speech(message, 1, src, , spans, message_language=language)
 
-	return */
-// [GOONWOOD-EIDT]
+	return

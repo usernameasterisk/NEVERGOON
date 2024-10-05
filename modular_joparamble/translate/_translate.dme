@@ -1,5 +1,7 @@
 #ifndef translate
 #define translate
 
-#include "code/translate.dm"
+#include "code/tron.dm"
+#include "code/scomm.dm"
+#include "code/emotes.dm"
 #endif

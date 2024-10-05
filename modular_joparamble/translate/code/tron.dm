@@ -3,7 +3,7 @@ GLOBAL_LIST_EMPTY(lord_decrees)
 GLOBAL_LIST_INIT(laws_of_the_land, initialize_laws_of_the_land())
 
 /proc/initialize_laws_of_the_land()
-	var/list/laws = strings("laws_of_the_land.json", "lawsets")
+	var/list/laws = strings()
 	var/list/lawsets_weighted = list()
 	for(var/lawset_name as anything in laws)
 		var/list/lawset = laws[lawset_name]

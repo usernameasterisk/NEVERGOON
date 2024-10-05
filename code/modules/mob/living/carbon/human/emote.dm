@@ -1,3 +1,5 @@
+// [GOONWOOD-EIDT]
+/*
 /datum/emote/living/carbon/human
 	mob_type_allowed_typecache = list(/mob/living/carbon/human)
 
@@ -166,3 +168,5 @@
 
 /mob/living/carbon/human/proc/CloseWings()
 	return
+*/
+// [GOONWOOD-EIDT]
