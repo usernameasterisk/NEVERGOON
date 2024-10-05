@@ -23,7 +23,7 @@ SUBSYSTEM_DEF(communications)
 			var/used_title = J.title
 			if(user.gender == FEMALE && J.f_title)
 				used_title = J.f_title
-			priority_announce(html_decode(user.treat_message(input)), "The [used_title] Decrees", pick('sound/misc/royal_decree.ogg', 'sound/misc/royal_decree2.ogg'), "Captain")
+			priority_announce(html_decode(user.treat_message(input)), "[used_title] объявлет", pick('sound/misc/royal_decree.ogg', 'sound/misc/royal_decree2.ogg'), "Captain")
 			silicon_message_cooldown = world.time + 5 SECONDS
 	else
 		if(user.job)
@@ -31,10 +31,10 @@ SUBSYSTEM_DEF(communications)
 			var/used_title = J.title
 			if(user.gender == FEMALE && J.f_title)
 				used_title = J.f_title
-			priority_announce(html_decode(user.treat_message(input)), "The [used_title] Speaks", 'sound/misc/bell.ogg', "Captain")
+			priority_announce(html_decode(user.treat_message(input)), "[used_title] объявляет", 'sound/misc/bell.ogg', "Captain")
 			nonsilicon_message_cooldown = world.time + 5 SECONDS
 		else
-			priority_announce(html_decode(user.treat_message(input)), "Someone Speaks", 'sound/misc/bell.ogg', "Captain")
+			priority_announce(html_decode(user.treat_message(input)), "Кто-то вещает", 'sound/misc/bell.ogg', "Captain")
 			nonsilicon_message_cooldown = world.time + 5 SECONDS
 	user.log_talk(input, LOG_SAY, tag="priority announcement")
 	message_admins("[ADMIN_LOOKUPFLW(user)] has made a priority announcement.")

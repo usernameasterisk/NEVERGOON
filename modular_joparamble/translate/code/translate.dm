@@ -13,7 +13,7 @@ GLOBAL_LIST_INIT(laws_of_the_land, initialize_laws_of_the_land())
 
 /obj/structure/roguemachine/titan
 	name = "Трон"
-	desc = "Тот, кто носит корону, владеет ключом к этой странной штуке. Если все остальное не поможет, кричите \"Помощь!\""
+	desc = "Тот, кто носит корону, владеет ключом к этому сидалищу. Если все остальное не поможет, кричите \"Помощь!\""
 	icon = 'icons/roguetown/misc/machines.dmi'
 	icon_state = ""
 	density = FALSE
@@ -99,7 +99,7 @@ GLOBAL_LIST_INIT(laws_of_the_land, initialize_laws_of_the_land())
 	switch(mode)
 		if(0)
 			if(findtext(message2recognize, "помощь"))
-				say("Мои комманды: издать указ, сделать объявление, устанавливать налоги, объявить вне закона, призвать корону, создать закон, убрать закон, почистить законы, неважно")
+				say("Ваши команды: Издать указ, Сделать объявление, Установить налог, Объявить преступника, Призвать корону, Создать закон, Убрать закон, Отменить законы, Неважно")
 				playsound(src, 'sound/misc/machinelong.ogg', 100, FALSE, -1)
 			if(findtext(message2recognize, "сделать объявление"))
 				if(nocrown)
@@ -157,7 +157,7 @@ GLOBAL_LIST_INIT(laws_of_the_land, initialize_laws_of_the_land())
 				playsound(src, 'sound/misc/machineyes.ogg', 100, FALSE, -1)
 				remove_law(law_index)
 				return
-			if(findtext(message2recognize, "почистить законы"))
+			if(findtext(message2recognize, "отменить законы"))
 				if(!SScommunications.can_announce(H))
 					say("Я должен собраться с силами!")
 					playsound(src, 'sound/misc/machineno.ogg', 100, FALSE, -1)
@@ -170,7 +170,7 @@ GLOBAL_LIST_INIT(laws_of_the_land, initialize_laws_of_the_land())
 				playsound(src, 'sound/misc/machineyes.ogg', 100, FALSE, -1)
 				purge_laws()
 				return
-			if(findtext(message2recognize, "объявить вне закона"))
+			if(findtext(message2recognize, "объявить преступника"))
 				if(notlord || nocrown)
 					say("Ты не мой хозяин!")
 					playsound(src, 'sound/misc/machineno.ogg', 100, FALSE, -1)
@@ -179,7 +179,7 @@ GLOBAL_LIST_INIT(laws_of_the_land, initialize_laws_of_the_land())
 				playsound(src, 'sound/misc/machinequestion.ogg', 100, FALSE, -1)
 				mode = 3
 				return
-			if(findtext(message2recognize, "устанавливать налоги"))
+			if(findtext(message2recognize, "установить налог"))
 				if(notlord || nocrown)
 					say("Ты не мой хозяин!")
 					playsound(src, 'sound/misc/machineno.ogg', 100, FALSE, -1)
@@ -206,7 +206,7 @@ GLOBAL_LIST_INIT(laws_of_the_land, initialize_laws_of_the_land())
 /obj/structure/roguemachine/titan/proc/give_tax_popup(mob/living/carbon/human/user)
 	if(!Adjacent(user))
 		return
-	var/newtax = input(user, "Set a new tax percentage (1-99)", src, SStreasury.tax_value*100) as null|num
+	var/newtax = input(user, "Каков будет процент налога? (1-99)", src, SStreasury.tax_value*100) as null|num
 	if(newtax)
 		if(!Adjacent(user))
 			return
@@ -214,7 +214,7 @@ GLOBAL_LIST_INIT(laws_of_the_land, initialize_laws_of_the_land())
 			return
 		newtax = CLAMP(newtax, 1, 99)
 		SStreasury.tax_value = newtax / 100
-		priority_announce("Новый налог в Рокхилле будет составлять [newtax] процент.", "Милорд Постановляет", pick('sound/misc/royal_decree.ogg', 'sound/misc/royal_decree2.ogg'), "Captain")
+		priority_announce("Новый налог в Рокхилле будет составлять [newtax]%.", "Милорд Постановляет", pick('sound/misc/royal_decree.ogg', 'sound/misc/royal_decree2.ogg'), "Captain")
 
 
 /obj/structure/roguemachine/titan/proc/make_announcement(mob/living/user, raw_message)
@@ -293,7 +293,7 @@ GLOBAL_LIST_INIT(laws_of_the_land, initialize_laws_of_the_land())
 		return
 	var/law_text = GLOB.laws_of_the_land[law_index]
 	GLOB.laws_of_the_land -= law_text
-	priority_announce("[law_index]. [law_text]", "ЗАКОН ОТМЕНЕН", pick('sound/misc/new_law.ogg', 'sound/misc/new_law2.ogg'), "Captain")
+	priority_announce("[law_index]. [law_text]", "Отмена закона", pick('sound/misc/new_law.ogg', 'sound/misc/new_law2.ogg'), "Captain")
 
 /proc/purge_laws()
 	GLOB.laws_of_the_land = list()
