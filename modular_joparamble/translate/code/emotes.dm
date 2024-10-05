@@ -465,7 +465,7 @@
 		var/mob/living/carbon/C = user
 		if(C.silent || !C.can_speak_vocal())
 			message = "издаёт сдавленный стон."
-
+/*
 /datum/emote/living/grimace
 	key = "grimace"
 	key_third_person = "корчит рожу"
@@ -476,7 +476,7 @@
 	set category = "Emotes"
 
 	emote("grimace", intentional = TRUE)
-
+*/
 /datum/emote/living/jump
 	key = "jump"
 	key_third_person = "прыгает"
@@ -896,13 +896,13 @@
 
 /datum/emote/living/conqrah
 	key = "conqrah"
-	message = "shouts triumphally!"
+	message = "торжествующе кричит!"
 	emote_type = EMOTE_AUDIBLE
 	only_forced_audio = TRUE 
 
 /datum/emote/living/rage
 	key = "rage"
-	message = "screams in rage!"
+	message = "кричит в ярости!"
 	emote_type = EMOTE_AUDIBLE
 
 /mob/living/carbon/human/verb/emote_rage()
@@ -1394,12 +1394,12 @@
 
 /datum/emote/living/shake
 	key = "shake"
-	key_third_person = "вертит головой"
-	message = "вертит головой."
+	key_third_person = "встряхивается"
+	message = "встряхивается."
 	emote_type = EMOTE_VISIBLE
 
 /mob/living/carbon/human/verb/emote_shake()
-	set name = "Вертит головой"
+	set name = "Встряхнуться"
 	set category = "Emotes"
 
 	emote("shake", intentional = TRUE)
@@ -1606,12 +1606,12 @@
 
 /datum/emote/living/carbon/human/cry
 	key = "cry"
-	key_third_person = "cries"
-	message = "cries."
+	key_third_person = "плачет"
+	message = "плачет."
 	emote_type = EMOTE_AUDIBLE
 
 /mob/living/carbon/human/verb/emote_cry()
-	set name = "Cry"
+	set name = "Плакать"
 	set category = "Noises"
 
 	emote("cry", intentional = TRUE)
@@ -1621,7 +1621,7 @@
 	if(. && iscarbon(user))
 		var/mob/living/carbon/C = user
 		if(C.silent || !C.can_speak())
-			message = "makes a noise. Tears stream down their face."
+			message = "издаёт сдавленный звук, сопровождающийся слёзами."
 
 
 /datum/emote/living/carbon/human/sexmoanlight
