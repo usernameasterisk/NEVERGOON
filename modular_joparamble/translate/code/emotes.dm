@@ -154,13 +154,13 @@
 
 /datum/emote/living/choke
 	key = "choke"
-	key_third_person = "задыхается"
-	message = "задыхается!"
+	key_third_person = "давится"
+	message = "давиться!"
 	emote_type = EMOTE_AUDIBLE
 	ignore_silent = TRUE
 
 /mob/living/carbon/human/verb/emote_choke()
-	set name = "Задыхаться"
+	set name = "Подавиться"
 	set category = "Noises"
 
 	emote("choke", intentional = TRUE)
