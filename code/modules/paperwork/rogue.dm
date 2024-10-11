@@ -5,7 +5,7 @@
 	slot_flags = null
 	dropshrink = 0.6
 	firefuel = 30 SECONDS
-	sellprice = 2
+	// sellprice = 2 [goonwood-edit-end]
 	textper = 108
 	maxlen = 2000
 	throw_range = 3
