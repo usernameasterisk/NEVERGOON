@@ -168,3 +168,6 @@
 
 /datum/species/seelie/random_surname()
 	return " [pick(world.file2list("strings/rt/names/other/fairyf.txt"))]"
+
+/datum/species/seelie/check_roundstart_eligible()
+	return TRUE

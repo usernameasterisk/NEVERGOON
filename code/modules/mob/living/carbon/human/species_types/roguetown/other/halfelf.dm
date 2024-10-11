@@ -126,3 +126,6 @@
 
 /datum/species/human/halfelf/random_surname()
 	return ""
+
+/datum/species/human/halfelf/check_roundstart_eligible()
+	return TRUE

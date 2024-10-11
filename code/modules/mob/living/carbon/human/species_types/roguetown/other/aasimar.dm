@@ -123,3 +123,6 @@
 
 /datum/species/aasimar/random_surname()
 	return
+
+/datum/species/aasimar/check_roundstart_eligible()
+	return TRUE

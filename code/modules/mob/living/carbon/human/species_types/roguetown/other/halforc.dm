@@ -134,3 +134,5 @@
 /datum/species/halforc/random_surname()
 	return
 
+/datum/species/halforc/check_roundstart_eligible()
+	return TRUE

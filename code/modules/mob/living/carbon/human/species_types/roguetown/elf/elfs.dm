@@ -153,3 +153,6 @@
 
 /datum/species/elf/wood/random_surname()
 	return " [pick(world.file2list("strings/rt/names/elf/elfwlast.txt"))]"
+
+/datum/species/elf/wood/check_roundstart_eligible()
+	return TRUE
