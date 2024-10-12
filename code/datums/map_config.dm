@@ -5,7 +5,7 @@
 
 /datum/map_config
 	// Metadata
-	var/config_filename = "_maps/rockhill_ru.json"
+	var/config_filename = "_maps/rockhill.json"
 	var/defaulted = TRUE  // set to FALSE by LoadConfig() succeeding
 	// Config from maps.txt
 	var/config_max_users = 0
