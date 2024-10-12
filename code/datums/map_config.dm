@@ -15,8 +15,8 @@
 
 	// Config actually from the JSON - should default to Box
 	var/map_name = "Rockhill"
-	var/map_path = "map_files/rockhill"
-	var/map_file = "rockhill.dmm"
+	var/map_path = "map_files/rockhill_ru"
+	var/map_file = "rockhill_ru.dmm"
 
 	var/traits = null
 	var/space_ruin_levels = 0

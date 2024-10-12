@@ -17,7 +17,7 @@ map rockhill
 	default
 	votable
 endmap
-map rockhill_ru
+map rockhill_rus
 	default
 	votable
 endmap
