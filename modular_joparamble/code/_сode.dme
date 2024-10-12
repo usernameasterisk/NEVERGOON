@@ -4,5 +4,4 @@
 #include "modules\client\customizer\customizers\organ\genitals.dm"
 #include "_DEFINES\DNA.dm"
 #include "_DEFINES\preferences.dm"
-#include "modules\roguemachine\steward.dm"
 #endif

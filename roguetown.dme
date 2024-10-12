@@ -3317,7 +3317,7 @@
 #include "code\modules\roguetown\roguemachine\merchant.dm"
 #include "code\modules\roguetown\roguemachine\money.dm"
 #include "code\modules\roguetown\roguemachine\scomm.dm"
-// #include "code\modules\roguetown\roguemachine\steward.dm"
+#include "code\modules\roguetown\roguemachine\steward.dm"
 #include "code\modules\roguetown\roguemachine\stockpile.dm"
 #include "code\modules\roguetown\roguemachine\submission.dm"
 #include "code\modules\roguetown\roguemachine\throne.dm"
