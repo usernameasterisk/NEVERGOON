@@ -4,3 +4,4 @@
 #include "code/modules/roguemachine/steward.dm"
 #include "jopa_icon/_jopa_icon.dme"
 #include "necklace_icon/_necklace_icon.dme"
+#include "usernameasterisk_mods/usernameasterisk_mods.dme"
