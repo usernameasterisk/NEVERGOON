@@ -1,1 +1,6 @@
+#ifndef usernameasterisk_mods
+#define usernameasterisk_mods
 
+#include "create_new/create_new.dme"
+#include "overwrite_existing/overwrite_existing.dme"
+#endif
