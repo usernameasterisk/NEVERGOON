@@ -449,12 +449,12 @@
 
 /datum/emote/living/groan
 	key = "groan"
-	key_third_person = "стонет"
-	message = "стонет."
+	key_third_person = "глубоко вздыхает"
+	message = "глубоко вздыхает."
 	emote_type = EMOTE_AUDIBLE
 
 /mob/living/carbon/human/verb/emote_groan()
-	set name = "Стонать"
+	set name = "Глубоко вздонуть"
 	set category = "Noises"
 
 	emote("groan", intentional = TRUE)
