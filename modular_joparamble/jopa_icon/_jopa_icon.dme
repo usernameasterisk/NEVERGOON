@@ -1,0 +1,15 @@
+#ifndef MoD_icon_Pack_jopa_icon
+#define MoD_icon_Pack_jopa_icon
+
+#include "jopa_icon.dm"
+
+#endif
+// BEGIN_INTERNALS
+// END_INTERNALS
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+// BEGIN_PREFERENCES
+// END_PREFERENCES
+// BEGIN_INCLUDE
+// END_INCLUDE
