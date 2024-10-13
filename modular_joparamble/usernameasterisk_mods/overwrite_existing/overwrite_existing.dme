@@ -1,1 +1,5 @@
+#ifndef overwrite_existing
+#define overwrite_existing
 
+#include "armor-inheritance-fix/armor-inheritance-fix.dme"
+#endif
