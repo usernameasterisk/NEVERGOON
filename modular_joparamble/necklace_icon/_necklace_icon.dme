@@ -1,0 +1,6 @@
+#ifndef NECKLACE_ICON
+#define NECKLACE_ICON
+
+#include "code/sprite.dm"
+#include "code/blacksmiting.dm"
+#endif
