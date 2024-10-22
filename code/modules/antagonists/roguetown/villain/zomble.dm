@@ -147,8 +147,8 @@
 	return ..()
 
 /datum/antagonist/zombie/proc/transform_zombie()
-	if(owner)
-		owner.skill_experience = list()
+//	if(owner)
+//		owner.skill_experience = list()
 	var/mob/living/carbon/human/zombie = owner.current
 	if(!zombie)
 		qdel(src)

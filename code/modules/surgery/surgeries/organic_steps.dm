@@ -124,6 +124,19 @@
 	if(bodypart)
 		for(var/datum/wound/bleeder in bodypart.wounds)
 			bleeder.cauterize_wound()
+		for(var/datum/wound/infection in bodypart.wounds)
+			if(infection.zombie_infection_timer)
+				deltimer(infection.zombie_infection_timer)
+				infection.zombie_infection_timer = null
+				display_results(user, target, span_notice("I burn out an infection in [target]'s [parse_zone(target_zone)]."),
+					span_notice("[user] burns out an infection in [target]'s [parse_zone(target_zone)]."),
+					span_notice("[user] burns out an infection in [target]'s [parse_zone(target_zone)]."))
+			if(infection.werewolf_infection_timer)
+				deltimer(infection.werewolf_infection_timer)
+				infection.werewolf_infection_timer = null
+				display_results(user, target, span_notice("I burn out an infection in [target]'s [parse_zone(target_zone)]."),
+					span_notice("[user] burns out an infection in [target]'s [parse_zone(target_zone)]."),
+					span_notice("[user] burns out an infection in [target]'s [parse_zone(target_zone)]."))
 		bodypart.receive_damage(burn = 25) //painful, but the wounds go away eh?
 	target.emote("scream")
 	return TRUE
@@ -192,7 +205,7 @@
 	name = "Drill bone"
 	ignore_clothes = TRUE
 	implements = list(
-		TOOL_DRILL = 80, 
+		TOOL_DRILL = 80,
 		TOOL_SCREWDRIVER = 25,
 	)
 	time = 3 SECONDS
